@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Rodrigo Araujo Soria</title>
+    <link>http://example.org/projects/</link>
+    <description>Recent content in Projects on Rodrigo Araujo Soria</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Jul 2018 14:11:21 -0600</lastBuildDate>
+    
+	<atom:link href="http://example.org/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TankBot</title>
+      <link>http://example.org/projects/tankbot/</link>
+      <pubDate>Fri, 06 Jul 2018 14:40:10 -0600</pubDate>
+      
+      <guid>http://example.org/projects/tankbot/</guid>
+      <description>Game Prototype TankBot is a 3D video game prototype that looks to imitate the exciting feel of 2D Shoot ’em up games like Contra and Metal Slug. All assets (3D models, sounds, animations, textures, etc.) in the game are placeholders to exemplify the game experience.
+ 
+Be Aggressive Unlike many other third person shooters with cover up mechanics, TankBot rewards forward aggressive play by boosting the player during combat. If you manage to destroy an enemy robot, you’ll get tools to destroy the rest!</description>
+    </item>
+    
+  </channel>
+</rss>

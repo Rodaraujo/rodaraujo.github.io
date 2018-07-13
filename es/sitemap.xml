@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/es/</loc>
+    <lastmod>2018-07-12T19:26:31-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://example.org/es/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/es/resume/</loc>
+    <lastmod>2018-07-11T09:50:44-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/resume/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://example.org/es/resume/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/es/about/</loc>
+    <lastmod>2018-07-11T00:32:03-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://example.org/es/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/es/projects/</loc>
+    <lastmod>2018-07-10T14:11:21-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://example.org/es/projects/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/es/projects/tankbot/</loc>
+    <lastmod>2018-07-06T14:40:10-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/projects/tankbot/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://example.org/es/projects/tankbot/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/es/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://example.org/es/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/es/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://example.org/es/tags/"
+                />
+  </url>
+  
+</urlset>
