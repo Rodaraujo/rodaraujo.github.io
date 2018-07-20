@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Acerca de</title>
+      <link>http://example.org/es/about/</link>
+      <pubDate>Wed, 11 Jul 2018 00:32:03 -0600</pubDate>
+      
+      <guid>http://example.org/es/about/</guid>
+      <description>&lt;p&gt;Soy un Diseñador de Juegos, Diseñador Web especializado en Manejo de Proyectos y un Planificador de Marketing Digital de Guatemala.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Hoja de Vida</title>
       <link>http://example.org/es/resume/</link>
       <pubDate>Wed, 11 Jul 2018 09:50:44 -0600</pubDate>
@@ -19,16 +28,6 @@
       <guid>http://example.org/es/resume/</guid>
       <description>Tecnología y Experticia  Manejo completo de:  Facebook Marketing Campañas en Marketing Digital Blender Pixelmator Unreal Engine 4 (Blueprints) Unreal Motion Graphics WordPress / Elementor Hugo   Experiencia con:  HTML CSS Bootstrap JavaScript PHP Vectorworks AudoCad Adobe Photoshop Drupal    Experiencia Laboral  Project Manager - BTO Software 2014 – Today
 Desempeño en el área de desarrollo web, manejo de clientes, coordinación de actualizaciones de funcionalidad y contenidos, y participación en diseño de estructura e interfaz de sitios y aplicaciones web para clientes como MedSpring.</description>
-    </item>
-    
-    <item>
-      <title>Acerca de</title>
-      <link>http://example.org/es/about/</link>
-      <pubDate>Wed, 11 Jul 2018 00:32:03 -0600</pubDate>
-      
-      <guid>http://example.org/es/about/</guid>
-      <description>Soy un Diseñador de Juegos, Diseñador Web especializado en Manejo de Proyectos y un Planificador de Marketing Digital d Guatemala.
-Empecé a trabajar en Marketing Digital ayudando a marcas como Tigo Guatemala y Colgate-Palmolive Centroamérica a posicionarse en medios digitales. Trabajé en las agencias de OMD Guatemala y MEC Guatemala ayudando a construir y expandir sus equipos de Marketing Digital. Ahora trabajo en Desarrollo Web directamente con clientes para estructurar y construir sitios web personalizados siguiendo lineamientos específicos.</description>
     </item>
     
     <item>

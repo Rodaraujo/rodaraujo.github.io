@@ -2,65 +2,41 @@
 <!doctype html>
 <html lang="en-us">
   <head>
+
     <meta charset="utf-8">
+    <title>
+      Resume  | Rodrigo Araujo Soria 
+      </title>
     
-    <title>Rodrigo Araujo Soria  | Resume</title>
+    <meta name="description" content="With experience in Digital Marketing, Web Development and Project Managing you can read about my full work experience here" />
+    
+    
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.shadow-animation/1/mainfile" crossorigin="anonymous"></script>
+
+    <script   src="/js/sticky-header.js"  crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <style>
-      @media (max-width:576px) {
+      @media (max-width:767.98px) {
         div#collapsibleNavbar {
           background-color: #000046;
         }
       }
-      @media (min-width:576px) {
-        .nav-translation::before {
-          content: "|";
-          opacity: 0.4;
-        }
-      }
-      .rod-sticky {
-        position: fixed !important;
-        z-index: 1;
-      }
     </style>
-    <script>
-      $(document).ready(function(){
-        var navHeight = $("#rod-nav-bg").outerHeight()
-        var distance = navHeight - 72;
-        var isFaded = false;
-        $(window).scroll(function() {
-          if ($(document).scrollTop() > distance) {
-            var newMargin = "-" + distance.toString() + "px";
-            $("#rod-nav-bg").addClass("rod-sticky");
-            $("#rod-nav-bg").css("top", newMargin);
-            $("#rod-nav-spacer").height(navHeight);
-          } else {
-            $("#rod-nav-bg").removeClass("rod-sticky")
-            $("#rod-nav-bg").css("top", "0");
-            $("#rod-nav-spacer").height(0);
 
-          }
-          if ($(document).scrollTop() > distance/3 && !isFaded) {
-            $("#rod-title").fadeTo(250, 0.1);
-            isFaded = true;
-          }
-          if ($(document).scrollTop() < distance/3 && isFaded) {
-            $("#rod-title").fadeTo(250, 1);
-            isFaded = false;
-          }
-        });
-      });
-    </script>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
   </head>
-  <body>
+  <body class="rod-content">
 
 
     
-<nav class="navbar navbar-expand-sm navbar-dark justify-content-center fixed-top" style="background:transparent">
-  <div class="navbar col-md-11 p-0">
+<nav class="navbar navbar-expand-md navbar-dark justify-content-center fixed-top" style="background:transparent">
+  <div class="navbar col-lg-11 p-0">
     <a class="navbar-brand" href="/">
       <img src="/images/logo-white.svg" alt="Logo" style="width:40px;">
       <span class="ml-1">
@@ -87,7 +63,7 @@
             <a class="nav-link active" href="/resume/">Resume</a>
           </li>
         
-        <span class="nav-translation text-light mx-2 align-self-center">  </span>
+        <div class="nav-translation text-light mx-2 align-self-center">  </div>
         
           <li class="nav-item text-center">
             <a class="nav-link" href="/es/resume/">Español</a>
@@ -99,12 +75,11 @@
 </nav>
 
 
-    <div class="container-fluid py-5 " style="background:linear-gradient(-30deg, #000046,  #1CB5E0);" id="rod-nav-bg">
-      <h1 class="text-center text-light py-4" id="rod-title">Resume</h1>
+    <div class="container-fluid py-4" style="background:linear-gradient(-30deg, #000046,  #1CB5E0);" id="rod-nav-bg">
+      <h1 class="text-center text-light pb-4" id="rod-title">Resume</h1>
     </div>
     <div id="rod-nav-spacer">
     </div>
-
 
         
 
@@ -194,8 +169,8 @@
   </div>
 
 
-
-  <div class="container-fluid py-5 mt-5 text-light text-center" style="background:linear-gradient(-30deg, #3f4c6b, #606c88);">
+    
+      <div class="container-fluid py-5 mt-5 text-light text-center" style="background:linear-gradient(-30deg, #3f4c6b, #606c88);">
   <h2>If you would like know more...</h2>
   <p class="font-weight-light">
     You can ask me anything at <a class="text-light font-weight-normal" href="mailto:me@rodaraujo.com">me@rodaraujo.com</a>.
@@ -206,11 +181,16 @@
   </p>
 </div>
 
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="/css/custom-style.css"  crossorigin="anonymous">
+
 </body>
 
 </html>
 
-
+    

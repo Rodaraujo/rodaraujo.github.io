@@ -3,36 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/es/</loc>
-    <lastmod>2018-07-12T19:26:31-06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://example.org/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://example.org/es/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://example.org/es/resume/</loc>
-    <lastmod>2018-07-11T09:50:44-06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://example.org/resume/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://example.org/es/resume/"
-                />
-  </url>
-  
-  <url>
     <loc>http://example.org/es/about/</loc>
     <lastmod>2018-07-11T00:32:03-06:00</lastmod>
     <xhtml:link
@@ -59,6 +29,36 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://example.org/es/projects/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/es/resume/</loc>
+    <lastmod>2018-07-11T09:50:44-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/resume/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://example.org/es/resume/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/es/</loc>
+    <lastmod>2018-07-12T19:26:31-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://example.org/es/"
                 />
   </url>
   

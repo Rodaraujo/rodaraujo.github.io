@@ -12,23 +12,22 @@
     
     
     <item>
-      <title>Resume</title>
-      <link>http://example.org/resume/</link>
-      <pubDate>Wed, 11 Jul 2018 09:50:44 -0600</pubDate>
-      
-      <guid>http://example.org/resume/</guid>
-      <description>Technology and Expertise  Day-to-Day Comfort:  Facebook Marketing Digital Marketing Campaigns Blender Pixelmator Unreal Engine 4 (Blueprints) Unreal Motion Graphics WordPress / Elementor   Experience with:  HTML CSS Bootstrap JavaScript PHP Vectorworks AudoCad Adobe Photoshop Drupal Hugo    Work Experience  Project Manager - BTO Software 2014 – Today
-Worked on web development, customer management, coordination of functionality and content updates, and participation in web design and UI/UX design for clients such as MedSpring.</description>
-    </item>
-    
-    <item>
       <title>About</title>
       <link>http://example.org/about/</link>
       <pubDate>Wed, 11 Jul 2018 00:32:03 -0600</pubDate>
       
       <guid>http://example.org/about/</guid>
-      <description>Hello there, I’m a Game Designer, Web Designer specialized in Project Managing and a former Digital Marketing Planner from Guatemala.
-I began working in Digital Marketing by helping brands like Tigo Guatemala and Colgate-Palmolive Central America build and maintain their online presence. This was done in OMD Guatemala, and MEC Guatemala advertising agencies where I also helped start and set up their Digital Marketing departments. Afterwards, I started working in Web Development working directly with clients in structuring and building custom websites following specific guidelines.</description>
+      <description>&lt;p&gt;Hello there, I’m a Game Designer, Web Designer specialized in Project Managing and a former Digital Marketing Planner from Guatemala.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>http://example.org/resume/</link>
+      <pubDate>Wed, 11 Jul 2018 09:50:44 -0600</pubDate>
+      
+      <guid>http://example.org/resume/</guid>
+      <description>Technology and Expertise  Day-to-Day Comfort:  Facebook Marketing Digital Marketing Campaigns Blender Pixelmator Unreal Engine 4 (Blueprints) Unreal Motion Graphics WordPress / Elementor Hugo   Experience with:  HTML CSS Bootstrap JavaScript PHP Vectorworks AudoCad Adobe Photoshop Drupal    Work Experience  Project Manager - BTO Software 2014 – Today
+Worked on web development, customer management, coordination of functionality and content updates, and participation in web design and UI/UX design for clients such as MedSpring.</description>
     </item>
     
     <item>
@@ -38,8 +37,7 @@ I began working in Digital Marketing by helping brands like Tigo Guatemala and C
       
       <guid>http://example.org/projects/tankbot/</guid>
       <description>Game Prototype TankBot is a 3D video game prototype that looks to imitate the exciting feel of 2D Shoot ’em up games like Contra and Metal Slug. All assets (3D models, sounds, animations, textures, etc.) in the game are placeholders to exemplify the game experience.
- 
-Be Aggressive Unlike many other third person shooters with cover up mechanics, TankBot rewards forward aggressive play by boosting the player during combat. If you manage to destroy an enemy robot, you’ll get tools to destroy the rest!</description>
+ Be Aggressive Unlike many other third person shooters with cover up mechanics, TankBot rewards forward aggressive play by boosting the player during combat. If you manage to destroy an enemy robot, you’ll get tools to destroy the rest!</description>
     </item>
     
   </channel>
