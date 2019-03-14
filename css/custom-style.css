@@ -1,7 +1,7 @@
 
 
 /* Small Screens */
-@media (min-width:576px) {
+@media (min-width:577px) {
     .w-sm-25 {
         width: 25% !important
     }
@@ -29,15 +29,49 @@
     .w-sm-auto {
         width: auto !important
     }
+
+    .homepage-title {
+    font-size: 5.8rem;
+    }
+
+    .homepage-title-container {
+    padding: 6rem 0 5rem 0;
+    }
+
+    .navbar-brand {
+        font-size: 1rem;
+    }
+
+    .rod-project {
+        width: 49%;
+    }
     
 }
 @media (max-width:576px) {
     .w-sm-25, .w-sm-30, .w-sm-50, .w-sm-70, .w-sm-75, .w-sm-100 {
         width: auto;
     }
+
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+
+    .homepage-title {
+    font-size: 5rem;
+    }
+
+    .homepage-title-container {
+    padding: 2rem 0 1rem 0;
+    }
+
     .rod-article-img-small {
         width: 160px !important;
         height: 100px !important;
+    }
+
+    .rod-project {
+        width: 98%;
+        margin-left: 1%;
     }
 }
 /*---------------------*/
@@ -75,12 +109,23 @@
     .nav-translation::before {
         content: "|";
         opacity: 0.4;
+        color: #888;
+    }
+
+    .rod-project-featured-text {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-top-left-radius: .25rem !important;
+        border-bottom-left-radius: .25rem !important;
+        max-width: 40%;
+    }
+    .rod-project-featured-image {
+        border-top-right-radius: .25rem !important;
+        border-bottom-right-radius: .25rem !important;
+        max-width: 60%;
     }
     
-    .rod-project {
-        width: 48% !important;
-    }
-    
+
     .side-box {
         width: 100%;
     }
@@ -91,19 +136,35 @@
         width: 30%;
     }
     
-    #rod-title {
-        padding-top: 1.5rem !important;
-    }
 }
 
 @media (max-width:768px) {
     .w-md-25, .w-md-30, .w-md-50, .w-md-70,.w-md-75, .w-md-100 {
         width: auto;
     }
+
+    .rod-project-featured-text {
+        border-bottom-left-radius: .25rem !important;
+        border-bottom-right-radius: .25rem !important;
+        width: 100%;
+    }
+    .rod-project-featured-image {
+        padding-top: 60%;
+        border-top-left-radius: .25rem !important;
+        border-top-right-radius: .25rem !important;
+        width: 100%;
+    }
+
+    div#collapsibleNavbar {
+        background-color: #fff;
+        border: 1px #ddd none;
+        box-shadow: 0 0.25rem .5rem rgba(0,0,0,.15)!important;
+    }
+
     .nav-translation {
-    border-top: 1px rgba(255,255,255,0.25) solid !important;
+    border-top: 1px #ddd solid !important;
     margin-top: 6px;
-    width: 3rem !important;
+    width: 5rem !important;
     }
     .side-box {
         width: auto;
@@ -112,10 +173,6 @@
         border-left: none !important;
         border-bottom: 3px rgba(0,0,0,0.12) double !important;
         width: 100%;
-    }
-    
-    #rod-title {
-        padding-top: 3rem !important;
     }
 }
 /*---------------------*/
@@ -164,10 +221,6 @@
         width: 35% !important;
     }
     
-    .rod-project {
-        width: 30% !important;
-    }
-    
 }
 @media (max-width:992px) {
     .w-lg-25, .w-lg-50, .w-lg-75, .w-lg-100 {
@@ -212,9 +265,116 @@
 }
 /*---------------------*/
 
-#rod-title {
-    position: relative !important;
+body, .page-menu {
+    background-color: #f7f6f4;
+    font-family: 'Muli', sans-serif;
 }
+
+body {
+    color:#444;
+}
+
+body a {
+    color: #2E7AF4;
+}
+
+.rod-footer {
+    background-color: #273751;
+}
+
+/* Title */
+h1,h2,h3,h4,h5 {
+    color:#223D68 !important;
+    font-family: 'PT Sans Caption', sans-serif;
+    padding-top: 1rem;
+    text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+    position: relative !important;
+    padding-top: 4rem !important;
+    font-size: 4rem;
+}
+
+.divider {
+    max-width: 400px;
+}
+
+.top-divider {
+    margin-top: 1rem;
+    max-width: 500px;
+}
+
+.divider-footer {
+    max-width: 300px;
+}
+
+.divder-decoration {
+    color: #888;
+    font-size: .75rem;
+    line-height: 1rem;
+}
+
+.home-divder-decoration {
+    color: #ea0;
+    font-size: .75rem;
+    line-height: 1rem;
+}
+
+.divider i, .divider-footer i {
+    vertical-align: middle;
+}
+
+.divider hr {
+    width: 40%;
+    height: 0rem;
+    border-color: #aaa;
+}
+
+.top-divider hr {
+    width: 45%;
+    height: 0rem;
+    border-color: #aaa;
+}
+
+.divider-footer hr {
+    width: 37%;
+    height: .25rem;
+    border:none;
+    border-bottom: 1px solid #ddd;
+}
+
+.divider hr:after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #aaa;
+    height: .25rem;
+}
+
+.divider hr:first-child:after {
+    margin-left:15px;
+}
+
+.divider hr:last-child:after {
+    margin-right:15px;
+}
+
+.top-divider hr:after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #aaa;
+    height: .25rem;
+}
+
+.top-divider hr:first-child:after {
+    margin-left:-15px;
+}
+
+.top-divider hr:last-child:after {
+    margin-right:-15px;
+}
+/*---------------------*/
+
 
 .rod-content {
     z-index: 0;
@@ -270,7 +430,7 @@
 .display-6 {
     font-size: 1.75rem;
     font-weight: 400;
-    line-height: 1.2
+    line-height: 1.2;
 }
 
 .display-7 {
@@ -280,11 +440,101 @@
 }
 
 
+
+.page-menu {
+}
+
+.rod-nav {
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #C4C8CF;
+}
+
+.homepage-title {
+    position: relative !important;
+    margin: 3rem 0 0rem 0;
+    text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+    font-weight: 400;
+}
+
+.homepage-subtitle {
+    font-size: 1.4rem;
+    color: #444;
+    text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+}
+
+.homepage-subtitle span:after {
+    content:" •";
+    color:#888;
+    
+}
+
+.homepage-subtitle span:last-child:after {
+    content:"";
+    
+}
+
+.rod-project-featured {
+  box-shadow: 0px 0px 0px rgba(0,0,0,0);
+    transition: all 200ms ease-out;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    top:0px;
+}
+.rod-project-featured:hover {
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.25);
+}
+.rod-project-featured-text {
+    background-color: #273751;
+}
+
+.rod-project-featured-text hr {
+    border-color: #ea0;
+    width: 60%;
+    margin-left: 0px
+}
+
+.rod-project-featured-image {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.rod-project {
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
+    transition: all 200ms ease-out;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    top:0px;
+}
+
+.rod-project:hover {
+  
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.25);
+}
+.rod-project-image {
+    width: 100% !important;
+    padding-top: 50%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.rod-project-text hr {
+    width: 40%;
+    margin-left: 0px
+}
+
+
+
 /* Animate Shadow */
 .shadow-in {
-	box-shadow: 0 .25rem .5rem rgba(0,0,0,0.15);
+	box-shadow: 0 0.125rem .25rem rgba(0,0,0,.075)!important;
 	animation-name: fade-in;
-	animation-duration: .2s;
+	animation-duration: 15s;
 	
 }
 .shadow-out {
@@ -293,10 +543,10 @@
 	animation-duration: .2s;
 }
 @keyframes fade-out {
-	from {box-shadow: 0 .25rem .5rem rgba(0,0,0,0.15);}
-	to {box-shadow: 0 0rem 0rem rgba(0,0,0,0);}
+	0% {box-shadow: 0rem .25rem .5rem rgba(0,0,0,0.15);}
+	100% {box-shadow: 0rem 0rem 0rem rgba(0,0,0,0);}
 }
 @keyframes fade-in {
-	from {box-shadow: 0 0rem 0rem rgba(0,0,0,0);}
-	to {box-shadow: 0 .25rem .5rem rgba(0,0,0,0.15);}
+	0% {box-shadow: 0rem 0rem 0rem rgba(0,0,0,0);}
+	100% {box-shadow: 0rem .25rem .5rem rgba(0,0,0,0.15);}
 }

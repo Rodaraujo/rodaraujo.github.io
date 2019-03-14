@@ -2,8 +2,8 @@
 <!doctype html>
 <html lang="en-us">
   <head>
-	<meta name="generator" content="Hugo 0.42.2" />
-
+	<meta name="generator" content="Hugo 0.54.0" />
+      
     <meta charset="utf-8">
     <title>
       Rodrigo Araujo Soria 
@@ -21,28 +21,30 @@
 
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <style>
-      @media (max-width:767.98px) {
-        div#collapsibleNavbar {
-          background-color: #0F2027;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption|Muli" rel="stylesheet">
 
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-
+    
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                                                         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+             })(window,document,'script','dataLayer','GTM-NC7KJLD');</script>
+    
   </head>
   <body class="rod-content">
 
 
       
-<nav class="navbar navbar-expand-md navbar-dark justify-content-center fixed-top" style="background:transparent">
-  <div class="navbar col-lg-11 p-0">
-    <a class="navbar-brand" href="/es">
-      <img src="/images/logo-white.svg" alt="Logo" style="width:40px;">
-      <span class="ml-1">
+<div id="rod-nav" class="fixed-top page-menu"></div>
+<nav class="navbar navbar-expand-md navbar-light justify-content-center fixed-top">
+  <div class="navbar col-lg-8 p-0">
+    <a class="navbar-brand ml-2" href="/es">
+      <div class="align-items-center row">
+        <img src="/images/logo-dark.svg" class="mr-1" alt="Logo" style="width:40px;">
         Rodrigo Araujo Soria
-      </span>
+      </div>
     </a>
 
     <button class="navbar-toggler px-1" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -64,78 +66,105 @@
             <a class="nav-link" href="/es/resume/">Hoja de Vida</a>
           </li>
         
-        <div class="nav-translation text-light mx-2 align-self-center">  </div>
         
-          <li class="nav-item text-center">
-            <a class="nav-link" href="/">English</a>
-          </li>
+        <div class="nav-translation text-light mx-2 align-self-center">  </div>
+            
+              <li class="nav-item text-center">
+                <a class="nav-link" href="/">English</a>
+              </li>
+            
         
       </ul>
     </div>
   </div>
 </nav>
 
-
-    <div class="container-fluid py-5" style="background:linear-gradient(-30deg, #0F2027,  #2C5364);" id="rod-nav-bg">
-      <div id="rod-title" class="text-light text-center py-4 ">
-        <h1 class="display-4">Rodrigo Araujo Soria</h1>
-        <hr class="border-secondary col-5" />
-        <p class="font-weight-light " >
-          Diseñador de Vame | Entusiasta de UE4 | Arte en 3D | Diseño Web
-        </p>
-      </div>
+<div class="container-fluid homepage-title-container my-5">
+        
+    <h1 class="text-center homepage-title" id="rod-title">Rodrigo Araujo Soria</h1>
+    <div class="pt-2 divider text-center mx-auto d-flex align-items-center">
+        <hr>
+        <span class="home-divder-decoration">
+            <i class="fas fa-dot-circle"></i>
+             <span style="font-size: 1.25rem; margin: 0px 3px 0px 3px">
+                <i class="fas fa-chess-knight"></i>
+            </span>
+            <i class="fas fa-dot-circle"></i>
+        </span>
+        <hr>
     </div>
-    <div id="rod-nav-spacer">
-    </div>
+    <p class="homepage-subtitle text-center p-4 row justify-content-center" >
+        
+            <span class="mx-1 text-center">Diseñador de Juegos</span>
+        
+            <span class="mx-1 text-center">Entusiasta de UE4</span>
+        
+            <span class="mx-1 text-center">Arte en 3D</span>
+        
+            <span class="mx-1 text-center">Diseño Web</span>
+        
+    </p>
+</div>
 
     
 
 
-<div class="container-fluid col-md-11 my-5 text-center pb-5">
-    <a href="/es/projects/" class="text-dark"><h2 class="display-5">Proyectos</h2></a>
+<div class="container-fluid col-md-10 my-5 text-center pb-5">
     <hr class="pb-4" />
-    <div class="d-flex w-auto flex-wrap justify-content-around">
+    <a href="/es/projects/" class="no-decoration">
+        <h2 class="mb-4 display-4">Proyectos</h2>
+    </a>
+    <div class="d-flex flex-wrap flex-fill justify-content-between col-lg-10 mx-auto text-left">
         
         
-        <div class="bg-dark rounded rod-project rod-animate mx-1 mb-4">
-            <a class="no-decoration" href="/es/projects/tankbot/" >
-                <div class="p-3 text-light">
-                    <h4 class="card-title">TankBot</h4>
-                    <p class="card-text">Un prototipo de Videojuego.</p>
-                    
+        <div class="rod-project-featured my-2" >
+            <a class="no-decoration stretched-link " href="/es/projects/tankbot/">
+              <div class="flex-row-reverse d-flex flex-wrap">
+                <div class="col rod-project-featured-image" style="background-image: url(/images/tankbot/tankbot-header.png)"> 
+                </div>
+                <div class="rod-project-featured-text card-body pb-5">
+                    <h3 class="card-title text-light">TankBot</h3>
+                    <hr>
+                    <p class="card-text text-light">Un prototipo de videojuego en 3D que busca imitar juegos como Contra y Metal Slug. Los modelos, sonidos y animaciones utilizados son solamente versiones simplificadas para ejemplificar la experiencia del juego.</p>
                 </div >
-                
-                <img class="rounded-bottom img-fluid px-5 py-3" src="/images/tankbot/tankbot-shooting.png" alt="TankBot Card image" style="background:linear-gradient(-30deg, #6521b4,  #d783ff);">
-                    
-                    </a>
+              </div>
+            </a>
         </div>
         
     </div>
 </div>
 
 
-    
-
 
 
     
-      <div class="container-fluid py-5 mt-5 text-light text-center" style="background:linear-gradient(-30deg, #3f4c6b, #606c88);">
-  <h2>Si te interesa saber mas...</h2>
+      <div class="container-fluid py-5 mt-5 text-light text-center rod-footer">
+  <h2 class="text-light mt-3">Si te interesa saber mas...</h2>
   <p class="font-weight-light">
     Puedes escribirme a <a class="text-light font-weight-normal" href="mailto:me@rodaraujo.com">me@rodaraujo.com</a>.
   </p>
-  <br />
+  <div class="my-5 divider-footer text-center mx-auto d-flex align-items-center">
+        <hr>
+        <span class="divder-decoration text-light">
+        <i class="fas fa-dot-circle" style="font-size: .65rem;"></i>
+        <span style="font-size: 1rem; margin: 0px 3px 0px 3px"><i class="fas fa-chess-knight"></i></span>
+        <i class="fas fa-dot-circle" style="font-size: .65rem;"></i>
+        </span>
+        <hr>
+      </div>
   <p>
-    Rodrigo Araujo Soria, 2018
+    Rodrigo Araujo Soria, 2019
   </p>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-
-
 <link rel="stylesheet" href="/css/custom-style.css"  crossorigin="anonymous">
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC7KJLD"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
 
 </body>
 

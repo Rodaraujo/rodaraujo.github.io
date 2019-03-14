@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en-us">
   <head>
-
+      
     <meta charset="utf-8">
     <title>
       Projects  | Rodrigo Araujo Soria 
@@ -20,28 +20,30 @@
 
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <style>
-      @media (max-width:767.98px) {
-        div#collapsibleNavbar {
-          background-color: #134E5E;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption|Muli" rel="stylesheet">
 
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-
+    
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                                                         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+             })(window,document,'script','dataLayer','GTM-NC7KJLD');</script>
+    
   </head>
   <body class="rod-content">
 
 
     
-<nav class="navbar navbar-expand-md navbar-dark justify-content-center fixed-top" style="background:transparent">
-  <div class="navbar col-lg-11 p-0">
-    <a class="navbar-brand" href="/">
-      <img src="/images/logo-white.svg" alt="Logo" style="width:40px;">
-      <span class="ml-1">
+<div id="rod-nav" class="fixed-top page-menu"></div>
+<nav class="navbar navbar-expand-md navbar-light justify-content-center fixed-top">
+  <div class="navbar col-lg-8 p-0">
+    <a class="navbar-brand ml-2" href="/">
+      <div class="align-items-center row">
+        <img src="/images/logo-dark.svg" class="mr-1" alt="Logo" style="width:40px;">
         Rodrigo Araujo Soria
-      </span>
+      </div>
     </a>
 
     <button class="navbar-toggler px-1" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -63,11 +65,13 @@
             <a class="nav-link" href="/resume/">Resume</a>
           </li>
         
-        <div class="nav-translation text-light mx-2 align-self-center">  </div>
         
-          <li class="nav-item text-center">
-            <a class="nav-link" href="/es/projects/">Español</a>
-          </li>
+        <div class="nav-translation text-light mx-2 align-self-center">  </div>
+            
+              <li class="nav-item text-center">
+                <a class="nav-link" href="/es/projects/">Español</a>
+              </li>
+            
         
       </ul>
     </div>
@@ -75,44 +79,64 @@
 </nav>
 
 
-    <div class="container-fluid py-4" style="background:linear-gradient(-30deg, #134E5E,  #43ce63);" id="rod-nav-bg">
-      <h1 class="text-center text-light pb-4" id="rod-title">Projects</h1>
-    </div>
-    <div id="rod-nav-spacer">
+    <div class="container-fluid py-4">
+
+      <h1 class="text-center mt-5 mb-2 page-title" id="rod-title">Projects</h1>
+      <div class=" divider text-center mx-auto d-flex align-items-center">
+        <hr>
+        <span class="divder-decoration">
+        <i class="fas fa-dot-circle"></i>
+        <span style="font-size: 1.25rem; margin: 0px 3px 0px 3px"><i class="fas fa-chess-knight"></i></span>
+        <i class="fas fa-dot-circle"></i>
+        </span>
+        <hr>
+      </div>
     </div>
 
         
-<div class="container-fluid col-md-11 mt-5">
+<div class="container-fluid col-lg-10 ">
   
-  <div class="d-flex flex-wrap justify-content-around">
+  <div class="d-flex flex-wrap flex-fill justify-content-between col-lg-10 mx-auto" >
     
-       <div class="bg-dark rounded rod-project rod-animate mx-1 mb-4">
-         <a class="no-decoration" href="/projects/tankbot/" >
-         <div class="p-3 text-light">
-             <h4 class="card-title">TankBot</h4>
-             <p class="card-text">A game prototype.</p>
-
-         </div >
-         
-         <img class="rounded-bottom img-fluid px-5 py-3" src="/images/tankbot/tankbot-shooting.png" alt="TankBot Card image" style="background:linear-gradient(-30deg, #6521b4,  #d783ff);">
-         
-         </a>
-         </div>
-
+      
+      
+          <div class="rod-project-featured my-2" >
+            <a class="no-decoration stretched-link " href="/projects/tankbot/">
+              <div class="flex-row-reverse d-flex flex-wrap">
+                <div class="col rod-project-featured-image" style="background-image: url(/images/tankbot/tankbot-header.png)"> 
+                </div>
+                <div class="rod-project-featured-text card-body pb-5">
+                    <h3 class="card-title text-light">TankBot</h3>
+                    <hr>
+                    <p class="card-text text-light">A 3D video game prototype imitating the feel of 2D Shoot ’em up games like Contra and Metal Slug. All assets (3D models, sounds, animations, textures, etc.) in the game are placeholders to exemplify the game experience.</p>
+                </div >
+              </div>
+            </a>
+        </div>
+      
+      
     
   </div>
 </div>
 
 
     
-      <div class="container-fluid py-5 mt-5 text-light text-center" style="background:linear-gradient(-30deg, #3f4c6b, #606c88);">
-  <h2>If you would like know more...</h2>
-  <p class="font-weight-light">
+      <div class="container-fluid py-5 mt-5 text-light text-center rod-footer">
+  <h2 class="text-light mt-3">If you would like know more...</h2>
+  <p class="font-weight-light mb-0">
     You can ask me anything at <a class="text-light font-weight-normal" href="mailto:me@rodaraujo.com">me@rodaraujo.com</a>.
   </p>
-  <br />
+  <div class="my-5 divider-footer text-center mx-auto d-flex align-items-center">
+        <hr>
+        <span class="divder-decoration text-light">
+        <i class="fas fa-dot-circle" style="font-size: .65rem;"></i>
+        <span style="font-size: 1rem; margin: 0px 3px 0px 3px"><i class="fas fa-chess-knight"></i></span>
+        <i class="fas fa-dot-circle" style="font-size: .65rem;"></i>
+        </span>
+        <hr>
+      </div>
   <p>
-    Rodrigo Araujo Soria, 2018
+    Rodrigo Araujo Soria, 2019
   </p>
 </div>
 
@@ -120,9 +144,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-
-
 <link rel="stylesheet" href="/css/custom-style.css"  crossorigin="anonymous">
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC7KJLD"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
 
 </body>
 

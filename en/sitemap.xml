@@ -48,6 +48,21 @@
   </url>
   
   <url>
+    <loc>http://example.org/projects/tankbot/</loc>
+    <lastmod>2019-01-06T14:40:10-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://example.org/es/projects/tankbot/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/projects/tankbot/"
+                />
+  </url>
+  
+  <url>
     <loc>http://example.org/</loc>
     <lastmod>2018-07-12T19:26:31-06:00</lastmod>
     <xhtml:link
@@ -59,21 +74,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://example.org/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://example.org/projects/tankbot/</loc>
-    <lastmod>2018-07-06T14:40:10-06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://example.org/es/projects/tankbot/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://example.org/projects/tankbot/"
                 />
   </url>
   
