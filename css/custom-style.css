@@ -465,7 +465,7 @@ h1,h2,h3,h4,h5 {
 
 .homepage-title {
     position: relative !important;
-    margin: 3rem 0 0rem 0;
+    margin: 3rem 0rem 0rem 0rem;
     text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
     font-weight: 400;
 }
