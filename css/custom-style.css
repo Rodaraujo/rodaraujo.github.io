@@ -278,6 +278,19 @@ body a {
     color: #2E7AF4;
 }
 
+body a:hover {
+    color: #2E7AF4;
+}
+
+a {
+    -webkit-text-decoration-skip: auto;
+    text-decoration-skip:auto;
+}
+
+.h-link {
+    color: #bbb !important;
+}
+
 .rod-footer {
     background-color: #273751;
 }
