@@ -1,0 +1,274 @@
+{
+	"centers":[
+		{
+			"name":"Aberdeen",
+			"reviews":[
+				{
+					"comment":"Have been here twice in one week, for myself and now my son. Lauren at the front desk was so helpful and courteous. The place is always clean, and they work hard to get you in and out as quickly as possible.", 
+					"name":"Angela", 
+					"rating":5
+				}, {
+					"comment":"Professional, timely, clean - pleasantly surprised and pleased.",
+					"name":"Dina",
+					"rating":5
+				}, {
+					"comment":"Quick service with on-line check in , wouldn’t recommend just showing up. Beautiful office with friendly staff.",
+					"name":"Courtney",
+					"rating":5
+				}, {
+					"comment":"Walked in yesterday for a migraine I had been having for many days. I waited probably a total of 5 minutes before I was brought back which is AMAZING. The staff was super friendly and the doctor I had, Drew, was very informative and made sure I was a-okay before they sent me on my way. I would definitely recommend and God forbid the need ever occurs, I will use them again.",
+					"name":"Rebekah",
+					"rating":5
+				}, {
+					"comment":"I chose this Urgent Care based on their reviews and they did not disappoint. I went first thing in the morning on a Friday. I did register online, which I recommend, because of the convenience. The two employees at the front desk were very friendly and professional. I saw the Nurse Practitioner, Erica, who was also really friendly with excellent bedside manner. She assessed my symptoms and prescribed accordingly. This will be my go-to urgent care here in Aberdeen!",
+					"name":"Natalie",
+					"rating":5
+				}, {
+					"comment":"Best experience i’ve had so far, very helpful and insightful. and you meet such nice ladies as soon as you walk in.",
+					"name":"Jordan",
+					"rating":5
+				}
+			]
+		}, 
+		{
+			"name":"Belvedere Square",
+			"reviews":[
+				{
+					"comment":"Friendly people, clean, peaceful waiting room and no wait time if you book online! Go here instead of other clinics - high quality health care here. Phenomenal",
+					"name":"Mollye",
+					"rating":5
+				}, {
+					"comment":"Friendly, helpful, professional staff. Clean, modern facility that generally runs on time if you make an appointment.",
+					"name":"Kenneth",
+					"rating":5
+				}, {
+					"comment":"Fast, friendly, and efficient.",
+					"name":"Karen",
+					"rating":5
+				}, {
+					"comment":"Came in with a semi deep cut and they immediately took me back to get it cleaned before all the paperwork. Very patient forward unlike the other urgent care nearby. Friendly staff and a clean calm environment.",
+					"name":"Kimon",
+					"rating":5
+				}, {
+					"comment":"Great customer service, very patient centered, brought us back immediately to look at an open wound and clean it then checked us in. Patient staff with calming demeanor. The facility is beautiful and makes a stressful experience as peaceful as it can be.",
+					"name":"Ashley",
+					"rating":5
+				}, {
+					"comment":"My visit was excellent the staff was very prompt and accurate excellent bedside manners I would definitely recommend them to my friends and definitely would revisit them",
+					"name":"Jennifer",
+					"rating":5
+				}
+			]
+		},
+		{
+			"name":"Denton",
+			"reviews":[
+				{
+					"comment":"From the front staff, to the nurses to the providers there is not ONE bad thing to say! My husband was very ill and he never is. Sure enough it was Influenza A. They diagnosed him, gave him care instructions, sent him over Tamiflu and did a chest X Ray because he is prone to pneumonia sent an antibiotic for that. Maybe there from start to finish an hour and that is during flu season. Very clean. The one lady was even sanitizing the doors after so many people walked through. What an excellent urgent care. Highly recommend.",
+					"name":"Jennifer",
+					"rating":5
+				}, {
+					"comment":"Friendly, helpful, professional staff. Clean, modern facility that generally runs on time if you make an appointment.",
+					"name":"Kenneth",
+					"rating":5
+				}, {
+					"comment":"Fast, friendly, and efficient.",
+					"name":"Karen",
+					"rating":5
+				}, {
+					"comment":"Came in with a semi deep cut and they immediately took me back to get it cleaned before all the paperwork. Very patient forward unlike the other urgent care nearby. Friendly staff and a clean calm environment.",
+					"name":"Kimon",
+					"rating":5
+				}, {
+					"comment":"Great customer service, very patient centered, brought us back immediately to look at an open wound and clean it then checked us in. Patient staff with calming demeanor. The facility is beautiful and makes a stressful experience as peaceful as it can be.",
+					"name":"Ashley",
+					"rating":5
+				}, {
+					"comment":"My visit was excellent the staff was very prompt and accurate excellent bedside manners I would definitely recommend them to my friends and definitely would revisit them",
+					"name":"Jennifer",
+					"rating":5
+				}
+			]
+		},
+		{
+			"name":"Dundalk",
+			"reviews":[
+				{
+					"comment":"This place is clean, always thorough but fast & effective w/getting you in & out the door & feeling like you have been HEARD! The ladies at the front desk were great. They were very busy when we originally came in on Saturday afternoon & let us know the aprx wait time, couldn’t wait that long bc our other child had to be somewhere in a couple hours & it wasn’t EXTREMELY urgent. We told them we’d be back in the morning & the ladies had everything ready & waiting as soon as we came in! This is the ONLY urgent care we go to since moving to the area & will continue to come to bc they care!",
+					"name":"Raven",
+					"rating":5
+				}, {
+					"comment":"It was an awesome experience. I was in and out in no minutes",
+					"name":"Erica",
+					"rating":5
+				}, {
+					"comment":"This is by far the best urgent care center that I have been to. I’ve received excellent care each time I was seen here. My last visit there I was having a allergic reaction to something and my throat was swelling. When Leslie was made aware of my situation I don’t think anyone could have done a better job of taking care of me.",
+					"name":"Angie",
+					"rating":5
+				}, {
+					"comment":"I was very pleased with my visit. I was very sick so I made an appt so I did not have to wait. I was taken quickly. The staff was very polite and cheerful. My PA was awesome... she acted quickly with my wheezing and I felt very comfortable with her. Would definitely go back....",
+					"name":"Shary",
+					"rating":5
+				}, {
+					"comment":"I went here because my primary care was unable to see me Last minute. I was really pleased with the quality of my visit and the professionalism within the team working. Being a nurse myself I have high expectations for the care I receive. Everyone was attentive to the signs and symptoms I’ve been having and my visit wasn’t rushed at all. I believe the NP really did a thorough evaluation and exam on me to try and figure out what was causing my illness. I wouldn’t definitely come back here in the future if ever need be. This place was way better then any other urgent care or patient first that I’ve ever been to.",
+					"name":"Heather",
+					"rating":5
+				}, {
+					"comment":"I was very pleased with my visit. I was very sick so I made an appt so I did not have to wait. I was taken quickly. The staff was very polite and cheerful. My PA was awesome... she acted quickly with my wheezing and I felt very comfortable with her. Would definitely go back....",
+					"name":"Shary",
+					"rating":5
+				}
+			]
+		},
+		{
+			"name":"Easton",
+			"reviews":[
+				{
+					"comment":"Comfortable, very clean facilities and the reception staff (Katie and Brandi) were very friendly and professional. I was seen by equally friendly and professional nurse practitioner, Jackie Smith, who made a confident and concise assessment of my condition (influenza A), discussed treatment and care, and had me on my way quickly. Additionally, there were no issues with my insurance coverage (Tricare). Very happy with my experience at this facility and would recommend without hesitation.",
+					"name":"Brandon",
+					"rating":5
+				}, {
+					"comment":"I have visited ChoiceOne on several occasions before and the Drs and staff are so caring and friendly my experience with them are great a wonderful place to go in your time of sickness THANK YOU CHOICEONE AND ALL YOUR STAFF",
+					"name":"Ida",
+					"rating":5
+				}, {
+					"comment":"Excellent! I felt the need to go to Urgent Care about 5:15. Went online and found I could book an appt. for 5:40 and do my paperwork. I screwed it up and put in the wrong date, but they took me as a walk-in and I was still seen with only a slightly longer wait. The check-in process was very efficient and quick. Went to triage, which took about 5 minutes for vitals, description of symptoms, etc. Went immediately to a room for a short wait. They tested me immediately for flu and strep so those tests could be \"percolating\" while I waited. Soon, Jackie Smith came in. She was really, really nice. My test results were reported shortly and they sent an electronic prescription across the street to Harris Teeter. Honestly, from deciding to go to getting my prescriptions was a little over an hour. The ambience was nice, also, with relaxing music and a waterfall feature. Highly recommend them. We used to go to Your Doc's In. That was OK but what a difference.",
+					"name":"Jill",
+					"rating":5
+				}, {
+					"comment":"They got us in, xray and out pretty quickly. We got there about 10 minutes after they opened.",
+					"name":"Heather",
+					"rating":5
+				}, {
+					"comment":"My experience was great. The staff were very friendly. And the care was great.",
+					"name":"Bev",
+					"rating":5
+				}, {
+					"comment":"Choice One gave me top notch care quickly and efficiently. I was extremely impressed and would return here first when the need arises. The facility was bright, new, and clean. The entire staff was pleasant, knowledgeable, and very focused on taking care of me. I am only sorry that I just now thought to come to Choice One Urgent Care; it is tucked away but by far the best urgent care option.",
+					"name":"Nanci",
+					"rating":5
+				}
+			]
+		},
+		{
+			"name":"Fallston",
+			"reviews":[
+				{
+					"comment":"Came here 3 times this week for myself and two of my kids. I love that we can check in online before coming so that we are not waiting. Everytime we were greeted, easily checked in and quickly taken back to a room. Staff was friendly, we had Nicole as our MA one of the days and Kerry the other two. NP Houck and PA Williams took great care of us during our visits.",
+					"name":"Amber ",
+					"rating":5
+				}, {
+					"comment":"Registered in line and was seen within 10 minutes of my appointment time. Professional service and accurate diagnosis",
+					"name":"Janice",
+					"rating":5
+				}, {
+					"comment":"Was treated very respectfully. No lengthy waiting period. Everyone was polite and listened very carefully to my problems. As a result, I always choose ChoiceOne urgent Care, Fallston when I am ill",
+					"name":"Ronald",
+					"rating":5
+				}, {
+					"comment":"Took both my kids in, the team was efficient, kind, knowledgeable, and quick! The X-ray tech Mara even let them see their X-ray on the screen. Kim the provider wrapped their injuries in their favorite color gauze- that’s a big plus for little girls. Great job ladies. Edit: Took Kayla in last night - fast, and friendly as always. Great job team!",
+					"name":"Kerry",
+					"rating":5
+				}, {
+					"comment":"The staff was very professional and nice. My son was examined throughly. The nurse that drew his blood was very careful and sympathetic with him. Very clean place.",
+					"name":"Reeny",
+					"rating":5
+				}, {
+					"comment":"The NP and staff were wonderful and very friendly. I’d definitely recommend this place to my friends and family. Extremely clean and inviting.",
+					"name":"Barbara",
+					"rating":5
+				}
+			]
+		},
+		{
+			"name":"Forest Hill",
+			"reviews":[
+				{
+					"comment":"Could not have asked for a better experience. The staff was friendly and caring. The Doctor was through and treated me well. Certainly a much better experience than being in the ER. Dr. George was fantastic!",
+					"name":"Gerry",
+					"rating":5
+				}, {
+					"comment":"Excellent and friendly service. They were very through and treated us with compassion.",
+					"name":"Linda",
+					"rating":5
+				}, {
+					"comment":"The sweetest, most professional team of doctors and staff. The nurses that triage my children know how to talk to them and make them feel comfortable. We are always in and out in a timely manner too. The ice pops they offer my daughters are an added bonus and just another way that they go above and beyond!!!",
+					"name":"Odette",
+					"rating":5
+				}, {
+					"comment":"I took my son here for a sports physical; everyone was extremely friendly and professional, especially impressive since it was close to closing time! The doctor was very articulate, caring and thorough... I believe her name was Dr. Nina. The facility itself was very clean and beautifully decorated which made the overall experience just wonderful. I will definitely be returning when needed.",
+					"name":"Linda",
+					"rating":5
+				}, {
+					"comment":"Very friendly staff and clean environment...will definitely return",
+					"name":"Christine",
+					"rating":5
+				}, {
+					"comment":"Great, quick service and very friendly to my child. Highly recommended",
+					"name":"Stephanie",
+					"rating":5
+				}
+			]
+		},
+		{
+			"name":"Phoenix",
+			"reviews":[
+				{
+					"comment":"The teammates at Phoenix are always pleasant, kind and caring. Always my first choice of places to go when I have an injury or illness.",
+					"name":"Laura",
+					"rating":5
+				}, {
+					"comment":"Dr. Larocco is the BEST! Staff courteous and professional. The center very clean. Plenty of waiting room space. Great experience!",
+					"name":"Janet",
+					"rating":5
+				}, {
+					"comment":"Kind, Quick, and through.",
+					"name":"Linda",
+					"rating":5
+				}, {
+					"comment":"Amazing staff and great care. I had a way better experience than the other nearby urgent care facilities I’ve been to.",
+					"name":"Corey",
+					"rating":5
+				}, {
+					"comment":"I hate going to the doctor. But this year I could not pull through the cold I was dealing with. I made a check in spot online, was five minutes late and seen right away. The ladies at the front desk are a delight. They were super nice to my kids when I was in the evaluation room. Even turned on cartoons for them. Everyone was up front and honest and was just trying to get down to what I had. I just changed insurance so I do not have a pcm yet, but if I would go here every time myself or my family is sick or dealing with anything medical. A lovely environment and lovely service. You guys rock.",
+					"name":"Vanessa",
+					"rating":5
+				}, {
+					"comment":"Very caring staff, clean, efficient. NP Pearson was wonderful.",
+					"name":"Laura",
+					"rating":5
+				}
+			]
+		},
+		{
+			"name":"Rotunda",
+			"reviews":[
+				{
+					"comment":"Needed extra help communicating findings to regular specialist. Erin Price went out of her way to help me. Great job! Thanks.",
+					"name":"Josepha",
+					"rating":5
+				}, {
+					"comment":"Clean and prompt. Very friendly and thorough. Good doctors will continue to use there services.",
+					"name":"Seth",
+					"rating":5
+				}, {
+					"comment":"I booked online, and was seen at the exact time I had scheduled. The ambiance of the space is very pleasant, which is nice given that no one is there for fun. Support staff and the doctor were all very courteous and listened. I also got referrals for specific specialists in my network, versus a vague \"you need to find a specialist\" response that I've gotten from other urgent cares.",
+					"name":"Mary",
+					"rating":5
+				}, {
+					"comment":"As always my experience going to Choice One was good. Both staff and Doctor were professional and intrested in what I was my concern was. I'm so glad to have a Choice One close and Available.",
+					"name":"Peggy",
+					"rating":5
+				}, {
+					"comment":"Came in 1 hour before closing on a week day. Quick, effective diagnosis/treatment and nice staff.",
+					"name":"Amy",
+					"rating":5
+				}, {
+					"comment":"Very nice people. Patient and caring.",
+					"name":"Saleemah",
+					"rating":5
+				}
+			]
+		}
+	]
+}
