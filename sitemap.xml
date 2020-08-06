@@ -1,18 +1,79 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>http://example.org/en/sitemap.xml</loc>
-		
-	   	<lastmod>2019-01-06T14:40:10-06:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>http://example.org/es/sitemap.xml</loc>
-		
-	   	<lastmod>2018-07-11T09:50:44-06:00</lastmod>
-		
-	</sitemap>
-	
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://rodaraujo.com/about/</loc>
+    <lastmod>2018-07-11T00:32:03-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://rodaraujo.com/es/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://rodaraujo.com/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://rodaraujo.com/projects/</loc>
+    <lastmod>2018-07-10T14:11:21-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://rodaraujo.com/es/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://rodaraujo.com/projects/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://rodaraujo.com/resume/</loc>
+    <lastmod>2018-07-11T09:50:44-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://rodaraujo.com/es/resume/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://rodaraujo.com/resume/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://rodaraujo.com/</loc>
+    <lastmod>2018-07-12T19:26:31-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://rodaraujo.com/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://rodaraujo.com/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://rodaraujo.com/projects/tankbot/</loc>
+    <lastmod>2018-07-06T14:40:10-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://rodaraujo.com/es/projects/tankbot/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://rodaraujo.com/projects/tankbot/"
+                />
+  </url>
+</urlset>
