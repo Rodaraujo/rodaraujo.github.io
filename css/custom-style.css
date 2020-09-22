@@ -44,6 +44,10 @@
     .navbar-brand {
         font-size: 1rem;
     }
+
+    .page-title {
+        font-size: 4rem;
+    }
     
 }
 @media (max-width:576px) {
@@ -66,6 +70,9 @@
     .rod-article-img-small {
         width: 160px !important;
         height: 100px !important;
+    }
+    .page-title {
+        font-size: 3rem;
     }
 }
 /*---------------------*/
@@ -359,7 +366,6 @@ h4,h5,.h4,.h5 {
 .page-title {
     position: relative !important;
     color: #f6f6f6 !important;
-    font-size: 4rem;
 }
 
 .divider {
