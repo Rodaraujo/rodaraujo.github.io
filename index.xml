@@ -50,32 +50,5 @@ Worked on web development, customer management, coordination of functionality an
 Unlike many other third person shooters with cover up mechanics, TankBot rewards forward aggressive play by boosting the player during combat. If you manage to destroy an enemy robot, you’ll get tools to destroy the rest!</description>
     </item>
     
-    <item>
-      <title>Test 1</title>
-      <link>https://rodaraujo.com/projects/test1/</link>
-      <pubDate>Sat, 14 Jul 2018 22:34:36 -0600</pubDate>
-      
-      <guid>https://rodaraujo.com/projects/test1/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus diam, convallis vitae ligula sed, condimentum porttitor nulla. Cras tristique lobortis pharetra. Aliquam erat volutpat. Mauris scelerisque, mauris eget congue pretium, neque augue varius ipsum, id laoreet justo sapien et dui. Praesent id venenatis lectus. Aenean porttitor non purus vitae ultricies. Duis viverra purus augue, sed euismod enim consectetur in. Cras quis dolor vel lacus mattis fringilla. Morbi a ornare erat.</description>
-    </item>
-    
-    <item>
-      <title>Test 2</title>
-      <link>https://rodaraujo.com/projects/test2/</link>
-      <pubDate>Sat, 14 Jul 2018 22:34:36 -0600</pubDate>
-      
-      <guid>https://rodaraujo.com/projects/test2/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus diam, convallis vitae ligula sed, condimentum porttitor nulla. Cras tristique lobortis pharetra. Aliquam erat volutpat. Mauris scelerisque, mauris eget congue pretium, neque augue varius ipsum, id laoreet justo sapien et dui. Praesent id venenatis lectus. Aenean porttitor non purus vitae ultricies. Duis viverra purus augue, sed euismod enim consectetur in. Cras quis dolor vel lacus mattis fringilla. Morbi a ornare erat.</description>
-    </item>
-    
-    <item>
-      <title>Test 3</title>
-      <link>https://rodaraujo.com/projects/test3/</link>
-      <pubDate>Sat, 14 Jul 2018 22:34:36 -0600</pubDate>
-      
-      <guid>https://rodaraujo.com/projects/test3/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus diam, convallis vitae ligula sed, condimentum porttitor nulla. Cras tristique lobortis pharetra. Aliquam erat volutpat. Mauris scelerisque, mauris eget congue pretium, neque augue varius ipsum, id laoreet justo sapien et dui. Praesent id venenatis lectus. Aenean porttitor non purus vitae ultricies. Duis viverra purus augue, sed euismod enim consectetur in. Cras quis dolor vel lacus mattis fringilla. Morbi a ornare erat.</description>
-    </item>
-    
   </channel>
 </rss>
