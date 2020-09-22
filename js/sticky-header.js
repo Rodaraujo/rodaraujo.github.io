@@ -4,12 +4,21 @@ $(document).ready(function(){
   var lastScrollTop = 0;
   var canFadeIn = true; 
   var isMenuHidden = false;
-  var titleHeight = 40;
+  var titleHeight = 10;
+  var blurClass = "bg-rod-light-blur";
+  var solidClass = "bg-rod-light";
+
   $("#rod-nav").fadeOut(0);
   $("#rod-nav").addClass("rod-nav");
 
+  if($("#rod-nav").hasClass(solidClass)){
+    if (navigator.userAgent.indexOf("Safari") > -1) {
+      $("#rod-nav").removeClass(solidClass);
+      $("#rod-nav").addClass(blurClass);
+    }
+  }
 
-  $(window).scroll(function() {
+  function fadeNav() {
     st = $(document).scrollTop();
 
 
@@ -25,7 +34,13 @@ $(document).ready(function(){
         canFadeIn = true;
       }
     }
-    lastScrollTop = st;
+    lastScrollTop = st
+  }
+
+  fadeNav();
+
+  $(window).scroll(function() {
+    fadeNav();
   });
 });
 

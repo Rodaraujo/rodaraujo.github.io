@@ -2,43 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rodrigo Araujo Soria</title>
-    <link>http://example.org/es/</link>
+    <link>https://rodaraujo.com/es/</link>
     <description>Recent content on Rodrigo Araujo Soria</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Thu, 12 Jul 2018 19:26:31 -0600</lastBuildDate>
     
-	<atom:link href="http://example.org/es/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rodaraujo.com/es/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Acerca de</title>
-      <link>http://example.org/es/about/</link>
+      <link>https://rodaraujo.com/es/about/</link>
       <pubDate>Wed, 11 Jul 2018 00:32:03 -0600</pubDate>
       
-      <guid>http://example.org/es/about/</guid>
+      <guid>https://rodaraujo.com/es/about/</guid>
       <description>&lt;p&gt;Soy un Diseñador de Juegos, Diseñador Web especializado en Manejo de Proyectos y un Planificador de Marketing Digital de Guatemala.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hoja de Vida</title>
-      <link>http://example.org/es/resume/</link>
+      <link>https://rodaraujo.com/es/resume/</link>
       <pubDate>Wed, 11 Jul 2018 09:50:44 -0600</pubDate>
       
-      <guid>http://example.org/es/resume/</guid>
-      <description>Tecnología y Experticia  Manejo completo de:  Facebook Marketing Campañas en Marketing Digital Blender Pixelmator Unreal Engine 4 (Blueprints) Unreal Motion Graphics WordPress / Elementor Hugo   Experiencia con:  HTML CSS Bootstrap JavaScript PHP Vectorworks AudoCad Adobe Photoshop Drupal    Experiencia Laboral  Project Manager - BTO Software 2014 – Today
-Desempeño en el área de desarrollo web, manejo de clientes, coordinación de actualizaciones de funcionalidad y contenidos, y participación en diseño de estructura e interfaz de sitios y aplicaciones web para clientes como MedSpring.</description>
+      <guid>https://rodaraujo.com/es/resume/</guid>
+      <description>Tecnología y Experticia  Manejo completo de:  Facebook Marketing Campañas en Marketing Digital Blender Pixelmator Unreal Engine 4 (Blueprints) Bootstrap JavaScript Angular WordPress / Elementor Hugo   Experiencia con:  HTML CSS Schema Markup Unreal Motion Graphics PHP Vectorworks AudoCad Adobe Photoshop Drupal Affinity Designer    Experiencia Laboral  Project Manager - BTO Software 2014 – Hoy
+Desempeño en el área de desarrollo web, manejo de clientes, coordinación de actualizaciones de funcionalidad y contenidos, y participación en diseño de estructura e interfaz de sitios y aplicaciones web para clientes como Mass General Brigham Urgent Care, ChoiceOne Urgent Care, BPL Plasma, Fresenius Health Partners (anteriormente), entre otros.</description>
+    </item>
+    
+    <item>
+      <title>AudioRetrato</title>
+      <link>https://rodaraujo.com/es/projects/audioretrato/</link>
+      <pubDate>Tue, 15 Sep 2020 12:00:43 -0600</pubDate>
+      
+      <guid>https://rodaraujo.com/es/projects/audioretrato/</guid>
+      <description>AudioRetrato es una recopilación de entrevistas a personas con experiencias poco comunes. Todas las personas en el mundo tienen algo que las hace diferentes a las demás, y con esto su punto de vista es único. En cada episodio se busca entender el punto de vista de los entrevistados con el fin de conocer las convicciones y motivaciones que los llevaron a vivir esas experiencias inhabituales.
+ Disponible en Distintas Plataformas Puedes escuchar los episodios de AudioRetrato en:</description>
     </item>
     
     <item>
       <title>TankBot</title>
-      <link>http://example.org/es/projects/tankbot/</link>
+      <link>https://rodaraujo.com/es/projects/tankbot/</link>
       <pubDate>Fri, 06 Jul 2018 14:40:10 -0600</pubDate>
       
-      <guid>http://example.org/es/projects/tankbot/</guid>
-      <description>Prototipo de Videojuego TankBot es un prototipo de videojuego en 3D que busca imitar el estilo emocionante de juegos como Contra y Metal Slug. Los modelos, sonidos y animaciones utilizados son solamente versiones simplificadas para ejemplificar la experiencia del juego.
- 
-Se Agresvio A diferencia de otros juegos de disparos en tercera persona, TankBot premia a los jugadores por ser agresivos contra los enemigos, activando mejoras durante el combate. ¡Si logras destruir un robot enemigo, obtendrás más herramientas para destruir al resto!</description>
+      <guid>https://rodaraujo.com/es/projects/tankbot/</guid>
+      <description>TankBot es un prototipo de videojuego en 3D que busca imitar el estilo emocionante de juegos como Contra y Metal Slug. Los modelos, sonidos y animaciones utilizados son solamente versiones simplificadas para ejemplificar la experiencia del juego.
+A diferencia de otros juegos de disparos en tercera persona, TankBot premia a los jugadores por ser agresivos contra los enemigos, activando mejoras durante el combate. ¡Si logras destruir un robot enemigo, obtendrás más herramientas para destruir al resto!</description>
     </item>
     
   </channel>

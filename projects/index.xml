@@ -2,23 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Rodrigo Araujo Soria</title>
-    <link>http://example.org/projects/</link>
+    <link>https://rodaraujo.com/projects/</link>
     <description>Recent content in Projects on Rodrigo Araujo Soria</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 10 Jul 2018 14:11:21 -0600</lastBuildDate>
     
-	<atom:link href="http://example.org/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rodaraujo.com/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>AudioRetrato</title>
+      <link>https://rodaraujo.com/projects/audioretrato/</link>
+      <pubDate>Tue, 15 Sep 2020 12:00:43 -0600</pubDate>
+      
+      <guid>https://rodaraujo.com/projects/audioretrato/</guid>
+      <description>AudioRetrato is a compilation of interviews in Spanish with people who have had uncommon life experiences. Every person in the world has something that makes them different from others, and this makes their point of view in live unique. Each episode seeks to understand the unique point of view of the interviewees with the objective of discovering their convictions and motivations that led them to extraordinary life experiences.
+ Available in Different Platforms You can listen to AudioRetrato here:</description>
+    </item>
+    
+    <item>
       <title>TankBot</title>
-      <link>http://example.org/projects/tankbot/</link>
+      <link>https://rodaraujo.com/projects/tankbot/</link>
       <pubDate>Sun, 06 Jan 2019 14:40:10 -0600</pubDate>
       
-      <guid>http://example.org/projects/tankbot/</guid>
-      <description>Game Prototype TankBot is a 3D video game prototype that looks to imitate the exciting feel of 2D Shoot ’em up games like Contra and Metal Slug. All assets (3D models, sounds, animations, textures, etc.) in the game are placeholders to exemplify the game experience.
- Be Aggressive Unlike many other third person shooters with cover up mechanics, TankBot rewards forward aggressive play by boosting the player during combat. If you manage to destroy an enemy robot, you’ll get tools to destroy the rest!</description>
+      <guid>https://rodaraujo.com/projects/tankbot/</guid>
+      <description>TankBot is a 3D video game prototype that looks to imitate the exciting feel of 2D Shoot ’em up games like Contra and Metal Slug. All assets (3D models, sounds, animations, textures, etc.) in the game are placeholders to exemplify the game experience.
+Unlike many other third person shooters with cover up mechanics, TankBot rewards forward aggressive play by boosting the player during combat. If you manage to destroy an enemy robot, you’ll get tools to destroy the rest!</description>
+    </item>
+    
+    <item>
+      <title>Test 1</title>
+      <link>https://rodaraujo.com/projects/test1/</link>
+      <pubDate>Sat, 14 Jul 2018 22:34:36 -0600</pubDate>
+      
+      <guid>https://rodaraujo.com/projects/test1/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus diam, convallis vitae ligula sed, condimentum porttitor nulla. Cras tristique lobortis pharetra. Aliquam erat volutpat. Mauris scelerisque, mauris eget congue pretium, neque augue varius ipsum, id laoreet justo sapien et dui. Praesent id venenatis lectus. Aenean porttitor non purus vitae ultricies. Duis viverra purus augue, sed euismod enim consectetur in. Cras quis dolor vel lacus mattis fringilla. Morbi a ornare erat.</description>
+    </item>
+    
+    <item>
+      <title>Test 2</title>
+      <link>https://rodaraujo.com/projects/test2/</link>
+      <pubDate>Sat, 14 Jul 2018 22:34:36 -0600</pubDate>
+      
+      <guid>https://rodaraujo.com/projects/test2/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus diam, convallis vitae ligula sed, condimentum porttitor nulla. Cras tristique lobortis pharetra. Aliquam erat volutpat. Mauris scelerisque, mauris eget congue pretium, neque augue varius ipsum, id laoreet justo sapien et dui. Praesent id venenatis lectus. Aenean porttitor non purus vitae ultricies. Duis viverra purus augue, sed euismod enim consectetur in. Cras quis dolor vel lacus mattis fringilla. Morbi a ornare erat.</description>
+    </item>
+    
+    <item>
+      <title>Test 3</title>
+      <link>https://rodaraujo.com/projects/test3/</link>
+      <pubDate>Sat, 14 Jul 2018 22:34:36 -0600</pubDate>
+      
+      <guid>https://rodaraujo.com/projects/test3/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus diam, convallis vitae ligula sed, condimentum porttitor nulla. Cras tristique lobortis pharetra. Aliquam erat volutpat. Mauris scelerisque, mauris eget congue pretium, neque augue varius ipsum, id laoreet justo sapien et dui. Praesent id venenatis lectus. Aenean porttitor non purus vitae ultricies. Duis viverra purus augue, sed euismod enim consectetur in. Cras quis dolor vel lacus mattis fringilla. Morbi a ornare erat.</description>
     </item>
     
   </channel>

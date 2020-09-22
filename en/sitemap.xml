@@ -3,107 +3,135 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://rodaraujo.com/about/</loc>
     <lastmod>2018-07-11T00:32:03-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/about/"
+                href="https://rodaraujo.com/es/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/about/"
+                href="https://rodaraujo.com/about/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/projects/</loc>
+    <loc>https://rodaraujo.com/projects/</loc>
     <lastmod>2018-07-10T14:11:21-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/projects/"
+                href="https://rodaraujo.com/es/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/projects/"
+                href="https://rodaraujo.com/projects/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/resume/</loc>
+    <loc>https://rodaraujo.com/resume/</loc>
     <lastmod>2018-07-11T09:50:44-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/resume/"
+                href="https://rodaraujo.com/es/resume/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/resume/"
+                href="https://rodaraujo.com/resume/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/projects/tankbot/</loc>
+    <loc>https://rodaraujo.com/projects/audioretrato/</loc>
+    <lastmod>2020-09-15T12:00:43-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://rodaraujo.com/es/projects/audioretrato/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rodaraujo.com/projects/audioretrato/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://rodaraujo.com/projects/tankbot/</loc>
     <lastmod>2019-01-06T14:40:10-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/projects/tankbot/"
+                href="https://rodaraujo.com/es/projects/tankbot/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/projects/tankbot/"
+                href="https://rodaraujo.com/projects/tankbot/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://rodaraujo.com/projects/test1/</loc>
+    <lastmod>2018-07-14T22:34:36-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rodaraujo.com/projects/test2/</loc>
+    <lastmod>2018-07-14T22:34:36-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rodaraujo.com/projects/test3/</loc>
+    <lastmod>2018-07-14T22:34:36-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rodaraujo.com/</loc>
     <lastmod>2018-07-12T19:26:31-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/"
+                href="https://rodaraujo.com/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/"
+                href="https://rodaraujo.com/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
-    <priority>0</priority>
+    <loc>https://rodaraujo.com/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/categories/"
+                href="https://rodaraujo.com/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/categories/"
+                href="https://rodaraujo.com/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
-    <priority>0</priority>
+    <loc>https://rodaraujo.com/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/tags/"
+                href="https://rodaraujo.com/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/tags/"
+                href="https://rodaraujo.com/tags/"
                 />
   </url>
   

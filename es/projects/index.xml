@@ -2,24 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Proyectos on Rodrigo Araujo Soria</title>
-    <link>http://example.org/es/projects/</link>
+    <link>https://rodaraujo.com/es/projects/</link>
     <description>Recent content in Proyectos on Rodrigo Araujo Soria</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Tue, 10 Jul 2018 14:11:21 -0600</lastBuildDate>
     
-	<atom:link href="http://example.org/es/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rodaraujo.com/es/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>AudioRetrato</title>
+      <link>https://rodaraujo.com/es/projects/audioretrato/</link>
+      <pubDate>Tue, 15 Sep 2020 12:00:43 -0600</pubDate>
+      
+      <guid>https://rodaraujo.com/es/projects/audioretrato/</guid>
+      <description>AudioRetrato es una recopilación de entrevistas a personas con experiencias poco comunes. Todas las personas en el mundo tienen algo que las hace diferentes a las demás, y con esto su punto de vista es único. En cada episodio se busca entender el punto de vista de los entrevistados con el fin de conocer las convicciones y motivaciones que los llevaron a vivir esas experiencias inhabituales.
+ Disponible en Distintas Plataformas Puedes escuchar los episodios de AudioRetrato en:</description>
+    </item>
+    
+    <item>
       <title>TankBot</title>
-      <link>http://example.org/es/projects/tankbot/</link>
+      <link>https://rodaraujo.com/es/projects/tankbot/</link>
       <pubDate>Fri, 06 Jul 2018 14:40:10 -0600</pubDate>
       
-      <guid>http://example.org/es/projects/tankbot/</guid>
-      <description>Prototipo de Videojuego TankBot es un prototipo de videojuego en 3D que busca imitar el estilo emocionante de juegos como Contra y Metal Slug. Los modelos, sonidos y animaciones utilizados son solamente versiones simplificadas para ejemplificar la experiencia del juego.
- 
-Se Agresvio A diferencia de otros juegos de disparos en tercera persona, TankBot premia a los jugadores por ser agresivos contra los enemigos, activando mejoras durante el combate. ¡Si logras destruir un robot enemigo, obtendrás más herramientas para destruir al resto!</description>
+      <guid>https://rodaraujo.com/es/projects/tankbot/</guid>
+      <description>TankBot es un prototipo de videojuego en 3D que busca imitar el estilo emocionante de juegos como Contra y Metal Slug. Los modelos, sonidos y animaciones utilizados son solamente versiones simplificadas para ejemplificar la experiencia del juego.
+A diferencia de otros juegos de disparos en tercera persona, TankBot premia a los jugadores por ser agresivos contra los enemigos, activando mejoras durante el combate. ¡Si logras destruir un robot enemigo, obtendrás más herramientas para destruir al resto!</description>
     </item>
     
   </channel>
