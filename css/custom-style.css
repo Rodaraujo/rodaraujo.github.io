@@ -124,9 +124,9 @@
     .rod-project-featured-image {
         padding-top: 0%;
         border-top-left-radius: 0px;
-        border-top-right-radius: calc(var(--rod-radius) - var(--rod-radius-image-correction));
+        border-top-right-radius: var(--rod-radius);
         border-bottom-left-radius: 0px;
-        border-bottom-right-radius: calc(var(--rod-radius) - var(--rod-radius-image-correction));
+        border-bottom-right-radius: var(--rod-radius);
     }
     
 
@@ -166,8 +166,8 @@
 
     .rod-project-featured-image {
         padding-top: 60%;
-        border-top-left-radius: calc(var(--rod-radius) - var(--rod-radius-image-correction));
-        border-top-right-radius: calc(var(--rod-radius) - var(--rod-radius-image-correction));
+        border-top-left-radius: var(--rod-radius);
+        border-top-right-radius: var(--rod-radius);
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
     }
@@ -606,8 +606,8 @@ h4,h5,.h4,.h5 {
     position: relative;
     background-position: center;
     background-size: cover;
-    border-top-left-radius: calc(var(--rod-radius) - var(--rod-radius-image-correction));
-    border-top-right-radius: calc(var(--rod-radius) - var(--rod-radius-image-correction));
+    border-top-left-radius: var(--rod-radius);
+    border-top-right-radius: var(--rod-radius);
 }
 
 .rod-title-image {
@@ -632,7 +632,7 @@ h4,h5,.h4,.h5 {
 .rod-button {
     padding: 1rem 1.2rem;
     background: white;
-    border-radius: calc(var(--rod-radius) - var(--rod-radius-image-correction));
+    border-radius: var(--rod-radius);
     box-shadow: 0px 0.125rem 0.25rem rgba(0,0,0,0.15);
     color: #444;
     margin: 1rem;
