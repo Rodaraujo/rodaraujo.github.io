@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+
+<channel>
+    <title>AudioRetrato</title>
+    <link>http://audioretrato.com</link>
+    <language>es</language>
+    <copyright>Copyright 2021 All rights reserved.</copyright>
+    <itunes:subtitle></itunes:subtitle>
+    <itunes:author>Rodrigo Araujo</itunes:author>
+    <itunes:summary>AudioRetrato es un show donde se exponen historias de distintos tipos de personas, sus proyectos y cómo llegaron al lugar en el que están.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>Rodrigo Araujo</itunes:name>
+      <itunes:email>me@rodaraujo.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://rodaraujo.com/images/audioretrato/portada.jpg" />
+    <itunes:category text="Documentary"/>
+    <itunes:category text="Society & Culture"/>
+
+    <item>
+           <title>Episodio 4: Global Game Jam Guatemala</title>
+           <itunes:author>Rodrigo Araujo</itunes:author>
+           <itunes:subtitle></itunes:subtitle>
+           <itunes:summary>Documental del evento Global Game Jam Guatemala donde se conoce la experiencia de los participantes junto a la explicación de Alhvi Balcarcel sobre cómo funciona el evento y como lo organiza la comunidad de GameDevGT.&lt;br&gt;Producido en Guatemala.&lt;br&gt;Música utlizada "Archipielago", "longdayz", "London Calling", "Portland Rain" y "All the Stars" por Ryan Andersen, de &lt;a href=&quot;https://freemusicarchive.org&quot;&gt;freemusicarchive.org&lt;/a&gt;, &lt;a href=&quot;https://creativecommons.org/licenses/by-nc/3.0/&quot;&gt;CC BY-NC&lt;/a&gt;</itunes:summary>
+           <itunes:image href="https://rodaraujo.com/images/audioretrato/portada.jpg" />
+           <enclosure url="https://audioretrato.s3.us-east-2.amazonaws.com/episodios/Episodio+4+Global+Game+Jam+Guatemala.mp3" length="68731783" type="audio/mpeg"/>
+           <guid>https://audioretrato.s3.us-east-2.amazonaws.com/episodios/Episodio+4+Global+Game+Jam+Guatemala.mp3</guid>
+           <pubDate>Sun Jan 31 2021 15:19:15 GMT-0600 (CST)</pubDate>
+           <itunes:duration>01:14:20</itunes:duration>
+         </item>
+       
+         <item>
+           <title>Episodio 3: Fabiana y Lucas</title>
+           <itunes:author>Rodrigo Araujo</itunes:author>
+           <itunes:subtitle></itunes:subtitle>
+           <itunes:summary>Entrevista con Fabiana Calvinisti y Lucas Vicente sobre cómo su experiencia en el mar cambió su estilo de vida y cómo cumplieron su objetivo de lanzar su proyecto Primal Body Mind.&lt;br&gt;Producido en Guatemala.&lt;br&gt;Música utilizada: "Amaranthus" y "Backwater" por Chad Crouch y "Operation A" por Borrtex, de &lt;a href=&quot;https://freemusicarchive.org&quot;&gt;freemusicarchive.org&lt;/a&gt;, &lt;a href=&quot;https://creativecommons.org/licenses/by-nc/3.0/&quot;&gt;CC BY-NC&lt;/a&gt;</itunes:summary>
+           <itunes:image href="https://rodaraujo.com/images/audioretrato/portada.jpg" />
+           <enclosure url="https://audioretrato.s3.us-east-2.amazonaws.com/episodios/Episodio+3++Fabiana+y+Lucas.mp3" length="68731783" type="audio/mpeg"/>
+           <guid>https://audioretrato.s3.us-east-2.amazonaws.com/episodios/Episodio+3++Fabiana+y+Lucas.mp3</guid>
+           <pubDate>Tue Apr 07 2020 15:19:15 GMT-0600 (CST)</pubDate>
+           <itunes:duration>01:56:27</itunes:duration>
+         </item>
+       
+         <item>
+           <title>Episodio 2: Nutrisuelos</title>
+           <itunes:author>Rodrigo Araujo</itunes:author>
+           <itunes:subtitle></itunes:subtitle>
+           <itunes:summary>Entrevista con Nutrisuelos acerca de su trabajo en el compostaje de los desechos del Centro de Mayoreo de Guatemala (CENMA) para producir abono orgánico.&lt;br&gt;Producido en Guatemala.&lt;br&gt;Música utilizada: "Adventure", "Lemonade", "Organisms", "Pacing" y "Creative Writing" por Chad Crouch, de &lt;a href=&quot;https://freemusicarchive.org&quot;&gt;freemusicarchive.org&lt;/a&gt;, &lt;a href=&quot;https://creativecommons.org/licenses/by-nc/3.0/&quot;&gt;CC BY-NC&lt;/a&gt;</itunes:summary>
+           <itunes:image href="https://rodaraujo.com/images/audioretrato/portada.jpg" />
+           <enclosure url="https://audioretrato.s3.us-east-2.amazonaws.com/episodios/Episodio+2++Nutrisuelos.mp3" length="" type="audio/mpeg"/>
+           <guid>https://audioretrato.s3.us-east-2.amazonaws.com/episodios/Episodio+2++Nutrisuelos.mp3</guid>
+           <pubDate>Tue Nov 12 2019 15:19:15 GMT-0600 (CST)</pubDate>
+           <itunes:duration>20:31</itunes:duration>
+         </item>
+       
+         <item>
+           <title>Episodio 1: Ligia García Y García</title>
+           <itunes:author>Rodrigo Araujo</itunes:author>
+           <itunes:subtitle></itunes:subtitle>
+           <itunes:summary>Entrevista con la escritora Ligia García y García en la que se habla de cómo se convirtió en escritora, qué piensa ella sobre la poesía y cómo difunde su pasión por la escritura.&lt;br&gt;Producido en Guatemala.&lt;br&gt;Música utilizada: "Algorithm", "Periwinkle", "Hot Pink", "Starlight" y "Bon Journee" por Chad Crouch, de &lt;a href=&quot;https://freemusicarchive.org&quot;&gt;freemusicarchive.org&lt;/a&gt;, &lt;a href=&quot;https://creativecommons.org/licenses/by-nc/3.0/&quot;&gt;CC BY-NC&lt;/a&gt;</itunes:summary>
+           <itunes:image href="https://rodaraujo.com/images/audioretrato/portada.jpg" />
+           <enclosure url="https://audioretrato.s3.us-east-2.amazonaws.com/episodios/Episodio+1++Ligia+G+y+G.mp3" length="" type="audio/mpeg"/>
+           <guid>https://audioretrato.s3.us-east-2.amazonaws.com/episodios/Episodio+1++Ligia+G+y+G.mp3</guid>
+           <pubDate>Sun Nov 03 2019 15:19:15 GMT-0600 (CST)</pubDate>
+           <itunes:duration>35:43</itunes:duration>
+         </item>
+        
+</channel>
+</rss>
