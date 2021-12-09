@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rodrigo Araujo Soria</title>
@@ -6,11 +6,7 @@
     <description>Recent content on Rodrigo Araujo Soria</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Jul 2018 19:26:31 -0600</lastBuildDate>
-    
-	<atom:link href="https://rodaraujo.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 12 Jul 2018 19:26:31 -0600</lastBuildDate><atom:link href="https://rodaraujo.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://rodaraujo.com/about/</link>
@@ -26,7 +22,7 @@
       <pubDate>Wed, 11 Jul 2018 09:50:44 -0600</pubDate>
       
       <guid>https://rodaraujo.com/resume/</guid>
-      <description>Technology and Expertise  Day-to-Day Comfort:  Facebook Marketing Digital Marketing Campaigns Blender Pixelmator Unreal Engine 4 (Blueprints) Bootstrap JavaScript Angular WordPress / Elementor Hugo   Experience with:  HTML CSS Schema Markup Unreal Motion Graphics PHP Vectorworks AudoCad Adobe Photoshop Drupal Affinity Designer    Work Experience  Project Manager - BTO Software 2014 – Today
+      <description>Technology and Expertise  Day-to-Day Comfort:  Facebook Marketing Digital Marketing Campaigns Blender Pixelmator Unreal Engine 4 (Blueprints) Bootstrap JavaScript Angular WordPress / Elementor Hugo   Experience with:  HTML CSS Schema Markup Unreal Motion Graphics PHP Vectorworks AudoCad Adobe Photoshop Drupal Affinity Designer     Work Experience  Project Manager - BTO Software 2014 – Today
 Worked on web development, customer management, coordination of functionality and content updates, and participation in web design and UI/UX design for clients such as Mass General Brigham Urgent Care, ChoiceOne Urgent care, BPLplasma.</description>
     </item>
     
@@ -37,7 +33,7 @@ Worked on web development, customer management, coordination of functionality an
       
       <guid>https://rodaraujo.com/projects/audioretrato/</guid>
       <description>AudioRetrato is a compilation of interviews in Spanish with people who have had uncommon life experiences. Every person in the world has something that makes them different from others, and this makes their point of view in live unique. Each episode seeks to understand the unique point of view of the interviewees with the objective of discovering their convictions and motivations that led them to extraordinary life experiences.
- Available in Different Platforms You can listen to AudioRetrato here:</description>
+Available in Different Platforms You can listen to AudioRetrato here:</description>
     </item>
     
     <item>

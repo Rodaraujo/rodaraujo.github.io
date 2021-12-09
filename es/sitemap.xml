@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://rodaraujo.com/es/about/</loc>
     <lastmod>2018-07-11T00:32:03-06:00</lastmod>
@@ -15,9 +14,7 @@
                 hreflang="es"
                 href="https://rodaraujo.com/es/about/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rodaraujo.com/es/projects/</loc>
     <lastmod>2018-07-10T14:11:21-06:00</lastmod>
     <xhtml:link
@@ -30,9 +27,7 @@
                 hreflang="es"
                 href="https://rodaraujo.com/es/projects/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rodaraujo.com/es/resume/</loc>
     <lastmod>2018-07-11T09:50:44-06:00</lastmod>
     <xhtml:link
@@ -45,9 +40,7 @@
                 hreflang="es"
                 href="https://rodaraujo.com/es/resume/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rodaraujo.com/es/projects/audioretrato/</loc>
     <lastmod>2020-09-15T12:00:43-06:00</lastmod>
     <xhtml:link
@@ -60,9 +53,7 @@
                 hreflang="es"
                 href="https://rodaraujo.com/es/projects/audioretrato/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rodaraujo.com/es/</loc>
     <lastmod>2018-07-12T19:26:31-06:00</lastmod>
     <xhtml:link
@@ -75,9 +66,7 @@
                 hreflang="es"
                 href="https://rodaraujo.com/es/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rodaraujo.com/es/projects/tankbot/</loc>
     <lastmod>2018-07-06T14:40:10-06:00</lastmod>
     <xhtml:link
@@ -90,9 +79,7 @@
                 hreflang="es"
                 href="https://rodaraujo.com/es/projects/tankbot/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rodaraujo.com/es/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -104,9 +91,7 @@
                 hreflang="es"
                 href="https://rodaraujo.com/es/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rodaraujo.com/es/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -119,5 +104,4 @@
                 href="https://rodaraujo.com/es/tags/"
                 />
   </url>
-  
 </urlset>
