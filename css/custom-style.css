@@ -646,6 +646,11 @@ h4,h5,.h4,.h5 {
     background: #007bff;
 }
 
+.rod-panel {
+    background-color: #fff;
+    transition: all 200ms ease-out;
+    border-radius: var(--rod-radius);
+}
 
 /* Animate Shadow *
 .shadow-in {
