@@ -1,6 +1,7 @@
 :root {
     --rod-radius: 20px;
     --rod-radius-image-correction: 5px;
+    --rod-secondary-color: #d6ddeb;
 }
 
 /* Small Screens */
@@ -593,7 +594,7 @@ h4,h5,.h4,.h5 {
 .rod-project {
     box-shadow: 0px 0.125rem 0.5rem rgba(0,0,0,0);
     transition: all 200ms ease-out;
-    background-color: #D6DDEB;
+    background-color: var(--rod-secondary-color);
     border-radius: var(--rod-radius);
 }
 
@@ -647,7 +648,7 @@ h4,h5,.h4,.h5 {
 }
 
 .rod-panel {
-    background-color: #fff;
+    background-color: var(--rod-secondary-color);
     transition: all 200ms ease-out;
     border-radius: var(--rod-radius);
 }
