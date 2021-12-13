@@ -125,16 +125,11 @@
         
   <div class="container col col-md-8 mb-5 pb-3">
     <p>AudioRetrato is a compilation of interviews in Spanish with people who have had uncommon life experiences. Every person in the world has something that makes them different from others, and this makes their point of view in live unique. Each episode seeks to understand the unique point of view of the interviewees with the objective of discovering their convictions and motivations that led them to extraordinary life experiences. <a href="#how-to-listen">You can listen to it here.</a></p>
-<div class="mx-auto rod-panel pb-4 px-4 my-5 row pt-2">
-<div class ="col-12 mb-3">
-<h4 id="latest-episodes">Latest Episodes</h4>
+<div class="mx-auto hide-on-apple mt-4 col-12 col-lg-10">
+<iframe src="https://open.spotify.com/embed/show/6TeD3WG4FN7LFhjFiWul73?utm_source=generator&theme=0" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 </div>
-<div class="col-12 col-lg-6">
-<iframe src="https://anchor.fm/audioretrato/embed/episodes/Episodio-4-Global-Game-Jam-Guatemala-e1bedvq" height="102px" width="100%" frameborder="0" scrolling="no"></iframe>
-</div>
-<div class="col-12 col-lg-6">
-<iframe src="https://anchor.fm/audioretrato/embed/episodes/Episodio-3-Fabiana-y-Lucas-e1bee02" height="102px" width="100%" frameborder="0" scrolling="no"></iframe>
-</div>
+<div class="mx-auto show-on-apple mt-4" style="width: 100%; max-width: 660px;">
+<iframe src="https://embed.podcasts.apple.com/us/podcast/audioretrato/id1487587990?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=dark" height="450px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; background-color: transparent;"></iframe>
 </div>
 <hr class="mt-5 mb-4 col-10" id="how-to-listen">
 <div class="text-center ">
@@ -147,6 +142,36 @@
 <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy83ODQyMThhMC9wb2RjYXN0L3Jzcw" class="rod-button mr-3 my-2 col-10 col-lg-4" target="_blank"><i class="fab fa-google"> Google Podcasts</i></a>
 <a href="https://anchor.fm/audioretrato" class="rod-button mr-3 my-2 col-10 col-lg-4" target="_blank"><i class="fas fa-podcast"></i> Anchor</i></a> 
 </div>
+<script>
+selectElement();
+
+function selectElement() {
+	var show = document.getElementsByClassName("show-on-apple");
+	var hide = document.getElementsByClassName("hide-on-apple");
+	var i=0;
+	var j=0;
+	if (isApple()) {
+		for (i = 0; i < show.length; i++) {
+		  show[i].style.display = "block";
+		}
+		for (j = 0; j < hide.length; j++) {
+		  hide[j].style.display = "none";
+		}
+	} else {
+		for (i = 0; i < show.length; i++) {
+		  show[i].style.display = "none";
+		}
+		for (j = 0; j < hide.length; j++) {
+		  hide[j].style.display = "block";
+		}
+	}
+
+}
+function isApple() {
+  return (navigator.vendor.includes("Apple"));
+}
+</script>
+
   </div>
 
 
