@@ -41,6 +41,19 @@
                 href="https://rodaraujo.com/es/resume/"
                 />
   </url><url>
+    <loc>https://rodaraujo.com/es/projects/hardshelled/</loc>
+    <lastmod>2022-07-04T14:40:10-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rodaraujo.com/projects/hardshelled/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://rodaraujo.com/es/projects/hardshelled/"
+                />
+  </url><url>
     <loc>https://rodaraujo.com/es/projects/audioretrato/</loc>
     <lastmod>2020-09-15T12:00:43-06:00</lastmod>
     <xhtml:link
@@ -78,30 +91,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://rodaraujo.com/es/projects/tankbot/"
-                />
-  </url><url>
-    <loc>https://rodaraujo.com/es/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://rodaraujo.com/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://rodaraujo.com/es/categories/"
-                />
-  </url><url>
-    <loc>https://rodaraujo.com/es/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://rodaraujo.com/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://rodaraujo.com/es/tags/"
                 />
   </url>
 </urlset>
