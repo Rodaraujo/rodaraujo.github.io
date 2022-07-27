@@ -4,8 +4,8 @@
     --hs-movement: 2%;
 }
 
-.show {
-    opacity: .8 !important;
+.modal-backdrop.show {
+    opacity: .85 !important;
 }
 
 body {
