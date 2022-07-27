@@ -60,7 +60,7 @@
 					<li class="nav-item">
 						<a class="hs-nav-link" href="https://rodaraujo.itch.io/hardshelled" target="_blank">Play Demo</a>
 					</li>
-					<span class="hs-spacer">|</span>
+					<span class="hs-spacer"></span>
 					
 			            
 			              <li class="nav-item">
@@ -73,47 +73,50 @@
 	</div>
 </nav>
 
-<div class="container">
-	<div class="row align-items-start justify-content-center mx-auto hs-hero col-12 col-lg-10 position-relative mt-3">
-		<div class="hs-hero-image col-12 mx-0">
-			<img class="img-fluid" src="/images/hardshelled/hero.webp">
-		</div>
+<div class="hs-hero-container">
+	<div class="container">
+		<div class="row align-items-start justify-content-center mx-auto hs-hero col-12 col-lg-10 position-relative mt-3">
+			<div class="hs-hero-image col-12 mx-0">
+				<img class="img-fluid" src="/images/hardshelled/hero.webp">
+			</div>
 
-		<div class="hs-hero-info col-12 col-md-10 col-lg-7 col-xl-6 px-0 ms-0 ms-lg-auto">
-			<div class="hs-warning-container p-1 shadow d-flex justify-content-center align-items-stretch">	
-				<div class="hs-sign align-items-center d-flex">
-					<i class="text-end fa-solid fa-triangle-exclamation col fa-2xl p-2"></i>
-				</div>
-				<div class="hs-sign-text p-1 text-start align-items-center d-flex">
-					<span class="col">Under<br>Development</span>
-				</div>				
-			</div>	
-			<div class="hs-hero-card p-2 shadow-lg">
-				<div class="hs-hero-border px-0 py-5 text-center">
-					<p class="h3 mx-4 mx-lg-5">Explore the bottom of the sea looking for the stolen shell.</p>
-					<hr class="col-8 mx-auto">
-					<p class="mx-4 mx-lg-5">A strange group of octopuses has stolen a hermit crab's shell. To find it, the crab needs to travel to new places and gather clues of the shell's whereabouts.</p>
-					<p class="mx-4 mx-lg-5">Join the crab in an adventure across the bottom of the sea!</p>
+			<div class="hs-hero-info col-12 col-md-10 col-lg-7 col-xl-6 px-0 ms-0 ms-lg-auto">
+				<div class="hs-warning-container p-1 shadow d-flex justify-content-center align-items-stretch">	
+					<div class="hs-sign align-items-center d-flex">
+						<i class="text-end fa-solid fa-triangle-exclamation col fa-2xl p-2"></i>
+					</div>
+					<div class="hs-sign-text p-1 text-start align-items-center d-flex">
+						<span class="col">Under<br>Development</span>
+					</div>				
+				</div>	
+				<div class="hs-hero-card p-2 shadow-lg">
+					<div class="hs-hero-border px-0 py-5 text-center">
+						<p class="h3 mx-4 mx-lg-5">Explore the bottom of the sea looking for the stolen shell.</p>
+						<hr class="col-8 mx-auto">
+						<p class="mx-4 mx-lg-5">A strange group of octopuses has stolen a hermit crab's shell. To find it, the crab needs to travel to new places and gather clues of the shell's whereabouts.</p>
+						<p class="mx-4 mx-lg-5">Join the crab in an adventure across the bottom of the sea!</p>
 
-					<hr class="col-8 mx-auto">
+						<hr class="col-8 mx-auto">
 
-					<div class="row mx-auto mt-4 col-10 col-md-8 position-relative">
-						<div class="hs-video4 shadow-lg p-0">
-							<video class="hs-hero-video m-0" playsinline autoplay loop mute><source src="/videos/hardshelled/video4.mp4" type="video/mp4">
-							</video>
-							
-						</div>
+						<div class="row mx-auto mt-4 col-10 col-md-8 position-relative">
+							<div class="hs-video4 shadow-lg p-0">
+								<video class="hs-hero-video m-0" playsinline autoplay loop mute><source src="/videos/hardshelled/video4.mp4" type="video/mp4">
+								</video>
+								
+							</div>
 
-						<div class="hs-hero-button">
-							<button class="btn btn-lg btn-hs-hero col" data-bs-toggle="modal" data-bs-target="#adventureModal">Watch the Video</button>
+							<div class="hs-hero-button">
+								<button class="btn btn-lg btn-hs-hero col" data-bs-toggle="modal" data-bs-target="#adventureModal">Watch the Video</button>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
 
-
+<div class="container">
 	<div class="row justify-content-center hs-row col col-lg-11 mx-auto position-relative">
 
 		<div  class="col-12 col-lg hs-overlap-left hs-video-container ratio ratio-16x9 order-0 order-lg-1 hs-video1" >
@@ -186,11 +189,11 @@
 
 
 <div class="modal fade hs-modal p-5" id="adventureModal" tabindex="-1" aria-labelledby="adventureModal" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-xl">
+	<div class="modal-dialog modal-dialog-centered modal-lg">
 		<div class="modal-content shadow-lg hs-modal">
 			<button type="button" class="btn btn-light hs-btn-close rounded-circle" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i></button>
 			<div class="ratio ratio-16x9">
-		  		<iframe id="adventureModalVideo" type="text/html" class="hs-video-embed" src="https://www.youtube.com/embed/CTEtQeoCE4Y?color=white&rel=0&playsinline=0&enablejsapi=1" frameborder="0"></iframe>
+		  		<iframe id="adventureModalVideo" type="text/html" class="hs-video-embed" src="https://www.youtube.com/embed/CTEtQeoCE4Y?color=white&rel=0&playsinline=0&enablejsapi=1" frameborder="0" allowfullscreen></iframe>
 		  	</div>
 		 
 		</div>
