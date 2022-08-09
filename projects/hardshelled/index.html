@@ -193,13 +193,12 @@
 		<div class="modal-content shadow-lg hs-modal">
 			<button type="button" class="btn btn-light hs-btn-close rounded-circle" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i></button>
 			<div class="ratio ratio-16x9">
-		  		<iframe id="adventureModalVideo" type="text/html" class="hs-video-embed" src="https://www.youtube.com/embed/CTEtQeoCE4Y?color=white&rel=0&playsinline=0&enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+		  		<iframe id="adventureModalVideo" type="text/html" class="hs-video-embed" src="https://www.youtube.com/embed/DSxcgoEI59s?color=white&rel=0&playsinline=0&enablejsapi=1" frameborder="0" allowfullscreen></iframe>
 		  	</div>
 		 
 		</div>
 	</div>
 </div>
-
 
 <script>
 	var modals = document.getElementsByClassName('hs-modal');
@@ -207,14 +206,16 @@
 	Array.prototype.forEach.call(modals, setModalEvents);
 
 	function setModalEvents (item) {
-		item.addEventListener('hidden.bs.modal', 
+		iframe = document.getElementsByTagName('iframe')[0];
+
+		item.addEventListener('hidden.bs.modal',
 			function (event) {
-				document.getElementsByTagName('iframe')[0].contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
-			})
+				iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+			});
 		item.addEventListener('show.bs.modal', 
 			function (event) {
-				document.getElementsByTagName('iframe')[0].contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
-			})
+				iframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+			});
 
 	}
 	var videos = document.getElementsByTagName("video");
