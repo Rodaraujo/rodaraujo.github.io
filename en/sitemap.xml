@@ -92,5 +92,29 @@
                 hreflang="en"
                 href="https://rodaraujo.com/"
                 />
+  </url><url>
+    <loc>https://rodaraujo.com/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://rodaraujo.com/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rodaraujo.com/categories/"
+                />
+  </url><url>
+    <loc>https://rodaraujo.com/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://rodaraujo.com/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rodaraujo.com/tags/"
+                />
   </url>
 </urlset>

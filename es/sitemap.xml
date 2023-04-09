@@ -92,5 +92,29 @@
                 hreflang="es"
                 href="https://rodaraujo.com/es/projects/tankbot/"
                 />
+  </url><url>
+    <loc>https://rodaraujo.com/es/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rodaraujo.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://rodaraujo.com/es/categories/"
+                />
+  </url><url>
+    <loc>https://rodaraujo.com/es/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rodaraujo.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://rodaraujo.com/es/tags/"
+                />
   </url>
 </urlset>
