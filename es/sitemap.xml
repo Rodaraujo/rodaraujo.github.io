@@ -28,6 +28,9 @@
                 href="https://rodaraujo.com/es/projects/"
                 />
   </url><url>
+    <loc>https://rodaraujo.com/es/blog/</loc>
+    <lastmod>2023-04-05T14:11:21-06:00</lastmod>
+  </url><url>
     <loc>https://rodaraujo.com/es/resume/</loc>
     <lastmod>2018-07-11T09:50:44-06:00</lastmod>
     <xhtml:link
@@ -40,6 +43,25 @@
                 hreflang="es"
                 href="https://rodaraujo.com/es/resume/"
                 />
+  </url><url>
+    <loc>https://rodaraujo.com/es/categories/</loc>
+    <lastmod>2023-04-11T20:39:10-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rodaraujo.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://rodaraujo.com/es/categories/"
+                />
+  </url><url>
+    <loc>https://rodaraujo.com/es/blog/estructura-juego-unreal-engine/</loc>
+    <lastmod>2023-04-11T20:39:10-06:00</lastmod>
+  </url><url>
+    <loc>https://rodaraujo.com/es/blog/categories/unreal-engine/</loc>
+    <lastmod>2023-04-11T20:39:10-06:00</lastmod>
   </url><url>
     <loc>https://rodaraujo.com/es/projects/hardshelled/</loc>
     <lastmod>2022-07-04T14:40:10-06:00</lastmod>
@@ -91,18 +113,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://rodaraujo.com/es/projects/tankbot/"
-                />
-  </url><url>
-    <loc>https://rodaraujo.com/es/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://rodaraujo.com/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://rodaraujo.com/es/categories/"
                 />
   </url><url>
     <loc>https://rodaraujo.com/es/tags/</loc>

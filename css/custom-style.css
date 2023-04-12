@@ -208,6 +208,7 @@
     .rod-content > div > h6,
     .rod-content > div > ul,
     .rod-content > div > ol,
+    .rod-content > div > hr,
     .rod-content-inner {
         margin-left: 6rem;
         margin-right: 6rem;
@@ -293,6 +294,7 @@
     .rod-content > div > h6,
     .rod-content > div > ul,
     .rod-content > div > ol,
+    .rod-content > div > hr,
     .rod-content-inner {
         margin-left: 8rem;
         margin-right: 8rem;
@@ -580,7 +582,7 @@ hr {
     bottom: 0px;
     background: var(--bs-red);
     z-index: -1;
-    border-radius: calc(var(--rod-radius)*1.2);
+    border-radius: var(--rod-radius);
     transition: all 150ms;
 }
 
@@ -591,6 +593,7 @@ hr {
     left: -5px;
     right: -5px;
     bottom: -5px;
+    border-radius: calc(var(--rod-radius)*1.2);
     transition: all 150ms;
 }
 

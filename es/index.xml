@@ -26,6 +26,15 @@
     </item>
     
     <item>
+      <title>Estructura de un Juego de Unreal Engine</title>
+      <link>https://rodaraujo.com/es/blog/estructura-juego-unreal-engine/</link>
+      <pubDate>Tue, 11 Apr 2023 20:39:10 -0600</pubDate>
+      
+      <guid>https://rodaraujo.com/es/blog/estructura-juego-unreal-engine/</guid>
+      <description>En el mundo de los videojuegos, Unreal Engine se ha convertido en una herramienta fundamental para muchos desarrolladores, pero uno de los desafíos que se enfrenta al trabajar con esta plataforma es comprender su estructura. Una de las cosas que lo hace confuso es la existencia de varios objetos y abstracciones similares, que puede hacer difícil distinguirlos y entender cuál es el objeto más adecuado para una tarea específica. Por ello es beneficioso tener un buen conocimiento de cómo el motor arranca y se crea la estructura de un juego.</description>
+    </item>
+    
+    <item>
       <title>Hard Shelled</title>
       <link>https://rodaraujo.com/es/projects/hardshelled/</link>
       <pubDate>Mon, 04 Jul 2022 14:40:10 -0600</pubDate>
