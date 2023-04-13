@@ -134,27 +134,38 @@
 <p>Al inicio puede ser bastante información pero una vez entendido, el proceso de arranque revela qué objetos se crean primero y permite entender las responsabilidades que cada uno debe tener sobre las reglas del juego. Si bien es flexible, Unreal Engine no deja de ser un framework de software grande con varios sistemas y partes que funcionan tras bambalinas, por lo que entender cómo funciona puede ayudar a definir qué tipo de información manejar en qué sección y qué partes ignorar.</p>
 <hr>
 <h2 id="glosario">Glosario</h2>
-<h5 id="gengine-a-hrefhttpsdocsunrealenginecom51en-usapiruntimeengineengineuengine-target_blank-titleuengine--unreal-engine-documentationuenginea">GEngine (<a href="https://docs.unrealengine.com/5.1/en-US/API/Runtime/Engine/Engine/UEngine/" target="_blank" title="UEngine | Unreal Engine Documentation">UEngine</a>)</h5>
+<h3 id="gengine">GEngine</h3>
+<p class="mb-1"><a href="https://docs.unrealengine.com/5.1/en-US/API/Runtime/Engine/Engine/UEngine/" target="_blank" title="UEngine | Unreal Engine Documentation">Clase UEngine</a></p>
 <p>Representa el motor de juego en sí y se encarga de abrir y cerrar los mundos, además de controlar la funcionalidad del juego. Creado al iniciar el juego y destruido al cerrarlo.</p>
-<h5 id="jugador-local-a-hrefhttpsdocsunrealenginecom427en-usapiruntimeengineengineulocalplayer-target_blank-titleulocalplayer--unreal-engine-documentationulocalplayera">Jugador Local (<a href="https://docs.unrealengine.com/4.27/en-US/API/Runtime/Engine/Engine/ULocalPlayer/" target="_blank" title="ULocalPlayer | Unreal Engine Documentation">ULocalPlayer</a>)</h5>
+<h3 id="jugador-local">Jugador Local</h3>
+<p class="mb-1"><a href="https://docs.unrealengine.com/4.27/en-US/API/Runtime/Engine/Engine/ULocalPlayer/" target="_blank" title="ULocalPlayer | Unreal Engine Documentation">Clase ULocalPlayer</a></p>
 <p>Representa a los jugadores conectados directamente al motor, el juego inicia con al menos uno. Maneja las conexiones entre el usuario y el motor. Creado al iniciar el juego y destruido al cerrarlo.</p>
-<h5 id="game-instance-a-hrefhttpsdocsunrealenginecom51en-usapiruntimeengineengineugameinstance-target_blank-titleugameinstance--unreal-engine-documentationugameinstancea">Game Instance (<a href="https://docs.unrealengine.com/5.1/en-US/API/Runtime/Engine/Engine/UGameInstance/" target="_blank" title="UGameInstance | Unreal Engine Documentation">UGameInstance</a>)</h5>
+<h3 id="game-instance">Game Instance</h3>
+<p class="mb-1"><a href="https://docs.unrealengine.com/5.1/en-US/API/Runtime/Engine/Engine/UGameInstance/" target="_blank" title="UGameInstance | Unreal Engine Documentation">Clase UGameInstance</a></p>
 <p>Clase que representa la instancia del juego, guarda configuraciones e información global del juego. Se crea al abrir el juego y se destruye al cerrarlo. No se destruye cuando se cambia de mundo. Útil para guardar información del juego cada vez que se cambia de mundo.</p>
-<h5 id="mundo-a-hrefhttpsdocsunrealenginecom50en-usapiruntimeengineengineuworld-target_blank-titleuworld--unreal-engine-documentationuworlda">Mundo (<a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/Engine/UWorld/" target="_blank" title="UWorld | Unreal Engine Documentation">UWorld</a>)</h5>
+<h3 id="mundo">Mundo</h3>
+<p class="mb-1"><a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/Engine/UWorld/" target="_blank" title="UWorld | Unreal Engine Documentation">Clase UWorld</a></p>
 <p>Paquete que contiene información del mundo en curso, incluyendo nivel (<a href="https://docs.unrealengine.com/4.27/en-US/API/Runtime/Engine/Engine/ULevel/" target="_blank" title="ULevel | Unreal Engine Documentation">ULevel</a>), controladores, y modos de juego. Representa el mundo del juego.</p>
-<h5 id="nivel-a-hrefhttpsdocsunrealenginecom427en-usapiruntimeengineengineulevel-target_blank-titleulevel--unreal-engine-documentationulevela">Nivel (<a href="https://docs.unrealengine.com/4.27/en-US/API/Runtime/Engine/Engine/ULevel/" target="_blank" title="ULevel | Unreal Engine Documentation">ULevel</a>)</h5>
+<h3 id="nivel">Nivel</h3>
+<p class="mb-1"><a href="https://docs.unrealengine.com/4.27/en-US/API/Runtime/Engine/Engine/ULevel/" target="_blank" title="ULevel | Unreal Engine Documentation">Clase ULevel</a></p>
 <p>Contiene información del nivel o mapa y los objetos que hay en él, es el área de juego. Se crea al abrirlo directamente y se destruye al cerrarlo. Un mundo puede contener múltiples niveles a la vez.</p>
-<h5 id="actor-a-hrefhttpsdocsunrealenginecom51en-usapiruntimeenginegameframeworkaactor-target_blank-titleaactor--unreal-engine-documentationaactora">Actor (<a href="https://docs.unrealengine.com/5.1/en-US/API/Runtime/Engine/GameFramework/AActor/" target="_blank" title="AActor | Unreal Engine Documentation">AActor</a>)</h5>
+<h3 id="actor">Actor</h3>
+<p class="mb-1"><a href="https://docs.unrealengine.com/5.1/en-US/API/Runtime/Engine/GameFramework/AActor/" target="_blank" title="AActor | Unreal Engine Documentation">Clase AActor</a></p>
 <p>Clase base de los objetos que pueden existir en un mundo. Pueden contener componentes para modificar su comportamiento. Existen mientras que el mundo que los contiene está en curso. Se crean y destruyen dependiendo de su comportamiento en el juego.</p>
-<h5 id="game-mode-a-hrefhttpsdocsunrealenginecom51en-usapiruntimeenginegameframeworkagamemodebase-target_blank-titleagamemodebase--unreal-engine-documentationagamemodebasea">Game Mode (<a href="https://docs.unrealengine.com/5.1/en-US/API/Runtime/Engine/GameFramework/AGameModeBase/" target="_blank" title="AGameModeBase | Unreal Engine Documentation">AGameModeBase</a>)</h5>
+<h3 id="game-mode">Game Mode</h3>
+<p class="mb-1"><a href="https://docs.unrealengine.com/5.1/en-US/API/Runtime/Engine/GameFramework/AGameModeBase/" target="_blank" title="AGameModeBase | Unreal Engine Documentation">Clase AGameModeBase</a></p>
 <p>Guarda información sobre las reglas del juego, controlador del jugador y personaje del juego. Se usa para definir el estado del jugador durante el juego. Se crea al abrir un mundo y se destruye al cerrarlo.</p>
-<h5 id="game-state-a-hrefhttpsdocsunrealenginecom427en-usapiruntimeenginegameframeworkagamestatebase-target_blank-titleagamestatebase--unreal-engine-documentationagamestatebasea">Game State (<a href="https://docs.unrealengine.com/4.27/en-US/API/Runtime/Engine/GameFramework/AGameStateBase/" target="_blank" title="AGameStateBase | Unreal Engine Documentation">AGameStateBase</a>)</h5>
+<h3 id="game-state">Game State</h3>
+<p class="mb-1"><a href="https://docs.unrealengine.com/4.27/en-US/API/Runtime/Engine/GameFramework/AGameStateBase/" target="_blank" title="AGameStateBase | Unreal Engine Documentation">Clase AGameStateBase</a></p>
 <p>Guarda información sobre el estado global del juego. Se crea al abrir un mundo y se destruye al cerrarlo.</p>
-<h5 id="player-controller-a-hrefhttpsdocsunrealenginecom51en-usapiruntimeenginegameframeworkaplayercontroller-target_blank-titleaplayercontroller--unreal-engine-documentationaplayercontrollera">Player Controller (<a href="https://docs.unrealengine.com/5.1/en-US/API/Runtime/Engine/GameFramework/APlayerController/" target="_blank" title="APlayerController | Unreal Engine Documentation">APlayerController</a>)</h5>
+<h3 id="player-controller">Player Controller</h3>
+<p class="mb-1"><a href="https://docs.unrealengine.com/5.1/en-US/API/Runtime/Engine/GameFramework/APlayerController/" target="_blank" title="APlayerController | Unreal Engine Documentation">Clase APlayerController</a></p>
 <p>Representa la interfaz entre el jugador y el juego, permite al jugador interactuar con el mundo. Puede poseer personajes en un mundo. Se crea al abrir un mundo y se destruye al cerrarlo.</p>
-<h5 id="player-state-a-hrefhttpsdocsunrealenginecom427en-usapiruntimeenginegameframeworkaplayerstate-target_blank-titleaplayerstate--unreal-engine-documentationaplayerstatea">Player State (<a href="https://docs.unrealengine.com/4.27/en-US/API/Runtime/Engine/GameFramework/APlayerState/" target="_blank" title="APlayerState | Unreal Engine Documentation">APlayerState</a>)</h5>
+<h3 id="player-state">Player State</h3>
+<p class="mb-1"><a href="https://docs.unrealengine.com/4.27/en-US/API/Runtime/Engine/GameFramework/APlayerState/" target="_blank" title="APlayerState | Unreal Engine Documentation">Clase APlayerState</a></p>
 <p>Guarda información sobre el estado del jugador como dinero, marcador, vidas, etc. Se crea al abrir un mundo y se destruye al cerrarlo.</p>
-<h5 id="pawn-a-hrefhttpsdocsunrealenginecom51en-usapiruntimeenginegameframeworkapawn-target_blank-titleapawn--unreal-engine-documentationapawna">Pawn (<a href="https://docs.unrealengine.com/5.1/en-US/API/Runtime/Engine/GameFramework/APawn/" target="_blank" title="APawn | Unreal Engine Documentation">APawn</a>)</h5>
+<h3 id="pawn">Pawn</h3>
+<p class="mb-1"><a href="https://docs.unrealengine.com/5.1/en-US/API/Runtime/Engine/GameFramework/APawn/" target="_blank" title="APawn | Unreal Engine Documentation">Clase APawn</a></p>
 <p>Clase base de actores que pueden ser poseídos por un controlador. Existen mientras que el mundo que los contiene está en curso. Se crean y destruyen dependiendo de su comportamiento en el juego.</p>
 
 	</div>
