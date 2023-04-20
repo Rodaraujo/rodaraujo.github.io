@@ -113,60 +113,100 @@
 
 	<div>
 		<p>En el mundo de los videojuegos, Unreal Engine se ha convertido en una herramienta fundamental para muchos desarrolladores, pero uno de los desafíos que se enfrenta al trabajar con esta plataforma es comprender su estructura. Una de las cosas que lo hace confuso es la existencia de varios objetos y abstracciones similares, que puede hacer difícil distinguirlos y entender cuál es el objeto más adecuado para una tarea específica. Por ello es beneficioso tener un buen conocimiento de cómo el motor arranca y se crea la estructura de un juego.</p>
+<div class="rod-content-inner small bg-white rod-rounded px-4 py-2 my-4 shadow-sm">
+	<h2 class="h5 pt-3">Índice de contenidos</h2>
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#arranque-del-motor">Arranque del Motor</a></li>
+    <li><a href="#arranque-del-juego">Arranque del Juego</a>
+      <ul>
+        <li><a href="#se-crea-el-jugador">Se crea el Jugador</a></li>
+        <li><a href="#y-el-personaje">¿Y el Personaje?</a></li>
+      </ul>
+    </li>
+    <li><a href="#glosario">Glosario</a>
+      <ul>
+        <li><a href="#gengine">GEngine</a></li>
+        <li><a href="#jugador-local">Jugador Local</a></li>
+        <li><a href="#game-instance">Game Instance</a></li>
+        <li><a href="#mundo">Mundo</a></li>
+        <li><a href="#nivel">Nivel</a></li>
+        <li><a href="#actor">Actor</a></li>
+        <li><a href="#game-mode">Game Mode</a></li>
+        <li><a href="#game-state">Game State</a></li>
+        <li><a href="#player-controller">Player Controller</a></li>
+        <li><a href="#player-state">Player State</a></li>
+        <li><a href="#pawn">Pawn</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
 <p>El arranque de un juego en Unreal Engine se divide en dos etapas: el arranque del motor y el arranque del juego en sí.</p>
 <h2 id="arranque-del-motor">Arranque del Motor</h2>
-<p>El primer paso se puede resumir en precargar los módulos básicos del motor, los módulos específicos del juego y los módulos de los plug-ins. En esta etapa se inician todos los sistemas base del motor y se prepara todo para entrar al bucle de juego, el <a href="https://ablancodev.com/algoritmos/game-loop/" target="_blank" title="Qué es el game loop">Game Loop</a>. Una vez los módulos y sistemas están cargados correctamente, se inicia una instancia del motor en un objeto global llamado GEngine (clase <a href="https://docs.unrealengine.com/5.1/en-US/API/Runtime/Engine/Engine/UEngine/" target="_blank" title="UEngine | Unreal Engine Documentation">UEngine</a>), junto con la creación del objeto Game Instance (clase <a href="https://docs.unrealengine.com/5.1/en-US/API/Runtime/Engine/Engine/UGameInstance/" target="_blank" title="UGameInstance | Unreal Engine Documentation">UGameInstance</a>), que guarda configuraciones e información global del juego, y el objeto que representa al jugador local (clase <a href="https://docs.unrealengine.com/4.27/en-US/API/Runtime/Engine/Engine/ULocalPlayer/" target="_blank" title="ULocalPlayer | Unreal Engine Documentation">ULocalPlayer</a>), el usuario.</p>
+<p>El primer paso se puede resumir en precargar los módulos básicos del motor, los módulos específicos del juego y los módulos de los plug-ins. En esta etapa se inician todos los sistemas base del motor y se prepara todo para entrar al bucle de juego, el <a href="https://ablancodev.com/algoritmos/game-loop/" target="_blank" title="Qué es el game loop">Game Loop</a>. Una vez los módulos y sistemas están cargados correctamente, se inicia una instancia del motor en un objeto global llamado GEngine (clase <a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/Engine/UEngine/" target="_blank" title="UEngine | Unreal Engine Documentation">UEngine</a>), junto con la creación del objeto Game Instance (clase <a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/Engine/UGameInstance/" target="_blank" title="UGameInstance | Unreal Engine Documentation">UGameInstance</a>), que guarda configuraciones e información global del juego, y el objeto que representa al jugador local (clase <a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/Engine/ULocalPlayer/" target="_blank" title="ULocalPlayer | Unreal Engine Documentation">ULocalPlayer</a>), el usuario.</p>
 <h2 id="arranque-del-juego">Arranque del Juego</h2>
-<p>En la siguiente etapa, el objeto GEngine es responsable de arrancar el juego de Unreal Engine. Su primera función es abrir el paquete que representa el mundo inicial del juego (clase <a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/Engine/UWorld/" target="_blank" title="UWorld | Unreal Engine Documentation">UWorld</a>), que contiene el nivel, objetos en el nivel llamados actores, componentes, reglas y controladores del juego. Esto crea e inicializa el primer nivel (clase <a href="https://docs.unrealengine.com/4.27/en-US/API/Runtime/Engine/Engine/ULevel/" target="_blank" title="ULevel | Unreal Engine Documentation">ULevel</a>), que contiene información relacionada con las reglas y los controladores que el jugador usa en el juego. Cada vez que se cambia de mundo, los objetos relacionados al mundo anterior se destruyen y se crean nuevos objetos relacionados al nuevo mundo.</p>
-<p>Al abrir el mundo se crea un objeto llamado Game Mode (clase <a href="https://docs.unrealengine.com/5.1/en-US/API/Runtime/Engine/GameFramework/AGameModeBase/" target="_blank" title="AGameModeBase | Unreal Engine Documentation">AGameModeBase</a>) que corresponde al modo del juego. El Game Mode se encarga de guardar las reglas del juego y definir el estado del jugador, por ejemplo si gana o pierde. Es normal que un mismo mapa tenga diferentes modos de juego, por ejemplo un juego de carreras puede utilizar la misma pista para jugar una carrera de 3 vueltas o para tratar de hacer la vuelta más rápida. En estos casos se utiliza el mismo mapa pero 2 Game Modes distintos que dependen de estas reglas de juego, uno para la carrera de 3 vueltas y otro para la vuelta rápida. A su vez, el Game Mode crea un objeto que se utiliza para guardar el estado de la partida durante la sesión de juego, Game State (clase <a href="https://docs.unrealengine.com/4.27/en-US/API/Runtime/Engine/GameFramework/AGameStateBase/" target="_blank" title="AGameStateBase | Unreal Engine Documentation">AGameStateBase</a>). El Game State se utiliza para guardar información relacionada a la partida como marcadores entre jugadores, tiempo de juego o rachas de ganar o perder. El Game Mode utiliza la información guardada en el Game State para poder definir qué procede según las reglas del juego.</p>
+<p>En la siguiente etapa, el objeto GEngine es responsable de arrancar el juego de Unreal Engine. Su primera función es abrir el paquete que representa el mundo inicial del juego (clase <a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/Engine/UWorld/" target="_blank" title="UWorld | Unreal Engine Documentation">UWorld</a>), que contiene el nivel, objetos en el nivel llamados actores, componentes, reglas y controladores del juego. Esto crea e inicializa el primer nivel (clase <a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/Engine/ULevel/" target="_blank" title="ULevel | Unreal Engine Documentation">ULevel</a>), que contiene información relacionada con las reglas y los controladores que el jugador usa en el juego. Cada vez que se cambia de mundo, los objetos relacionados al mundo anterior se destruyen y se crean nuevos objetos relacionados al nuevo mundo.</p>
+<p>Al abrir el mundo se crea un objeto llamado Game Mode (clase <a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/GameFramework/AGameModeBase/" target="_blank" title="AGameModeBase | Unreal Engine Documentation">AGameModeBase</a>) que corresponde al modo del juego. El Game Mode se encarga de guardar las reglas del juego y definir el estado del jugador, por ejemplo si gana o pierde. Es normal que un mismo mapa tenga diferentes modos de juego, por ejemplo un juego de carreras puede utilizar la misma pista para jugar una carrera de 3 vueltas o para tratar de hacer la vuelta más rápida. En estos casos se utiliza el mismo mapa pero 2 Game Modes distintos que dependen de estas reglas de juego, uno para la carrera de 3 vueltas y otro para la vuelta rápida. A su vez, el Game Mode crea un objeto que se utiliza para guardar el estado de la partida durante la sesión de juego, Game State (clase <a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/GameFramework/AGameStateBase/" target="_blank" title="AGameStateBase | Unreal Engine Documentation">AGameStateBase</a>). El Game State se utiliza para guardar información relacionada a la partida como marcadores entre jugadores, tiempo de juego o rachas de ganar o perder. El Game Mode utiliza la información guardada en el Game State para poder definir qué procede según las reglas del juego.</p>
 <p>En esta etapa también se crea un objeto para manejar conexiones de red (clase <a href="https://docs.unrealengine.com/4.27/en-US/API/Runtime/Engine/GameFramework/AGameNetworkManager/" target="_blank" title="AGameNetworkManager | Unreal Engine Documentation">AGameNetworkManager</a>), pero esto solo es relevante para aplicaciones que manejan múltiples instancias conectadas del juego, como un juego en línea, por ejemplo.</p>
 <h3 id="se-crea-el-jugador">Se crea el Jugador</h3>
-<p>Con el Game State creado, se procede a crear el jugador. El Game Mode guarda también la información del controlador que el jugador utiliza y el personaje que el jugador controla en el juego. Primero se crea el objeto que representa el controlador del jugador Player Controller (clase <a href="https://docs.unrealengine.com/5.1/en-US/API/Runtime/Engine/GameFramework/APlayerController/" target="_blank" title="APlayerController | Unreal Engine Documentation">APlayerController</a>), que a su vez crea un objeto que guarda información del jugador durante la sesión de juego, el Player State (clase <a href="https://docs.unrealengine.com/4.27/en-US/API/Runtime/Engine/GameFramework/APlayerState/" target="_blank" title="APlayerState | Unreal Engine Documentation">APlayerState</a>). Luego, el motor conecta este controlador con el objeto que representa al jugador local (<a href="https://docs.unrealengine.com/4.27/en-US/API/Runtime/Engine/Engine/ULocalPlayer/" target="_blank" title="ULocalPlayer | Unreal Engine Documentation">ULocalPlayer</a>)</p>
+<p>Con el Game State creado, se procede a crear el jugador. El Game Mode guarda también la información del controlador que el jugador utiliza y el personaje que el jugador controla en el juego. Primero se crea el objeto que representa el controlador del jugador Player Controller (clase <a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/GameFramework/APlayerController/" target="_blank" title="APlayerController | Unreal Engine Documentation">APlayerController</a>), que a su vez crea un objeto que guarda información del jugador durante la sesión de juego, el Player State (clase <a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/GameFramework/APlayerState/" target="_blank" title="APlayerState | Unreal Engine Documentation">APlayerState</a>). Luego, el motor conecta este controlador con el objeto que representa al jugador local (<a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/Engine/ULocalPlayer/" target="_blank" title="ULocalPlayer | Unreal Engine Documentation">ULocalPlayer</a>)</p>
 <p>El Player Controller y Player State tienen una relación similar a la del Game Mode y el Game State. El Player Controller se utiliza para procesar los tipos de controles y las preferencias del jugador; ahí se define la interfaz entre el jugador y el personaje que controla. El Player State se utiliza para guardar información como las vidas del jugador, dinero acumulado, objetos en el inventario, poderes que tenga activos, etc.</p>
 <h3 id="y-el-personaje">¿Y el Personaje?</h3>
 <p>Normalmente, los juegos tienen un personaje que el jugador controla, aunque no siempre es el caso. A esta toma de control se le llama <strong>poseer</strong> en Unreal Engine, un controlador posee un personaje. Cuando el Player Controller se termina de crear, se define cómo proceder para que el jugador interactúe con el juego:</p>
 <ol>
-<li>El jugador debe poseer un personaje, el juego crea un personaje (clase base <a href="https://docs.unrealengine.com/5.1/en-US/API/Runtime/Engine/GameFramework/APawn/" target="_blank" title="APawn | Unreal Engine Documentation">APawn</a>) definido en el Game Mode y lo conecta al controlador.</li>
-<li>El jugador inicia el juego como espectador, el juego crea un objeto espectador (clase base <a href="https://docs.unrealengine.com/5.1/en-US/API/Runtime/Engine/GameFramework/APawn/" target="_blank" title="APawn | Unreal Engine Documentation">APawn</a>) que permite al jugador navegar en el mundo pero no interactuar con él</li>
+<li>El jugador debe poseer un personaje, el juego crea un personaje (clase base <a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/GameFramework/APawn/" target="_blank" title="APawn | Unreal Engine Documentation">APawn</a>) definido en el Game Mode y lo conecta al controlador.</li>
+<li>El jugador inicia el juego como espectador, el juego crea un objeto espectador (clase base <a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/GameFramework/ASpectatorPawn/" target="_blank" title="APawn | Unreal Engine Documentation">ASpectatorPawn</a>) que permite al jugador navegar en el mundo pero no interactuar con él</li>
 <li>No hacer nada, el proceso de creación y posesión de personajes se maneja después de iniciado el juego.</li>
 </ol>
 <p>Cuando todo está creado, se procede a correr la función de BeginPlay (iniciar juego) de todos los actores y componentes del juego, y se entra oficialmente al <a href="https://ablancodev.com/algoritmos/game-loop/" target="_blank" title="Qué es el game loop">Game Loop</a>.</p>
 <p>Al inicio puede ser bastante información pero una vez entendido, el proceso de arranque revela qué objetos se crean primero y permite entender las responsabilidades que cada uno debe tener sobre las reglas del juego. Si bien es flexible, Unreal Engine no deja de ser un framework de software grande con varios sistemas y partes que funcionan tras bambalinas, por lo que entender cómo funciona puede ayudar a definir qué tipo de información manejar en qué sección y qué partes ignorar.</p>
-<hr>
 <h2 id="glosario">Glosario</h2>
+<p>En resumen, estos son los elementos estructurales de un juego en Unreal Engine.</p>
+<hr>
 <h3 id="gengine">GEngine</h3>
-<p class="mb-1"><a href="https://docs.unrealengine.com/5.1/en-US/API/Runtime/Engine/Engine/UEngine/" target="_blank" title="UEngine | Unreal Engine Documentation">Clase UEngine</a></p>
 <p>Representa el motor de juego en sí y se encarga de abrir y cerrar los mundos, además de controlar la funcionalidad del juego. Creado al iniciar el juego y destruido al cerrarlo.</p>
+<p><a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/Engine/UEngine/" target="_blank" title="UEngine | Unreal Engine Documentation" class="btn btn-sm btn-primary shadow-sm mb-2 me-2 px-3">API UEngine</a></p>
+<hr>
 <h3 id="jugador-local">Jugador Local</h3>
-<p class="mb-1"><a href="https://docs.unrealengine.com/4.27/en-US/API/Runtime/Engine/Engine/ULocalPlayer/" target="_blank" title="ULocalPlayer | Unreal Engine Documentation">Clase ULocalPlayer</a></p>
 <p>Representa a los jugadores conectados directamente al motor, el juego inicia con al menos uno. Maneja las conexiones entre el usuario y el motor. Creado al iniciar el juego y destruido al cerrarlo.</p>
+<p><a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/Engine/ULocalPlayer/" target="_blank" title="ULocalPlayer | Unreal Engine Documentation" class="btn btn-sm btn-primary shadow-sm mb-2 me-2 px-3">API ULocalPlayer</a></p>
+<hr>
 <h3 id="game-instance">Game Instance</h3>
-<p class="mb-1"><a href="https://docs.unrealengine.com/5.1/en-US/API/Runtime/Engine/Engine/UGameInstance/" target="_blank" title="UGameInstance | Unreal Engine Documentation">Clase UGameInstance</a></p>
 <p>Clase que representa la instancia del juego, guarda configuraciones e información global del juego. Se crea al abrir el juego y se destruye al cerrarlo. No se destruye cuando se cambia de mundo. Útil para guardar información del juego cada vez que se cambia de mundo.</p>
+<p><a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/Engine/UGameInstance/" target="_blank" title="UGameInstance | Unreal Engine Documentation" class="btn btn-sm btn-primary shadow-sm mb-2 me-2 px-3">API UGameInstance</a></p>
+<hr>
 <h3 id="mundo">Mundo</h3>
-<p class="mb-1"><a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/Engine/UWorld/" target="_blank" title="UWorld | Unreal Engine Documentation">Clase UWorld</a></p>
-<p>Paquete que contiene información del mundo en curso, incluyendo nivel (<a href="https://docs.unrealengine.com/4.27/en-US/API/Runtime/Engine/Engine/ULevel/" target="_blank" title="ULevel | Unreal Engine Documentation">ULevel</a>), controladores, y modos de juego. Representa el mundo del juego.</p>
+<p>Paquete que contiene información del mundo en curso, incluyendo nivel (<a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/Engine/ULevel/" target="_blank" title="ULevel | Unreal Engine Documentation">ULevel</a>), controladores, y modos de juego. Representa el mundo del juego.</p>
+<p><a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/Engine/UWorld/" target="_blank" title="UWorld | Unreal Engine Documentation" class="btn btn-sm btn-primary shadow-sm mb-2 me-2 px-3">API UWorld</a></p>
+<hr>
 <h3 id="nivel">Nivel</h3>
-<p class="mb-1"><a href="https://docs.unrealengine.com/4.27/en-US/API/Runtime/Engine/Engine/ULevel/" target="_blank" title="ULevel | Unreal Engine Documentation">Clase ULevel</a></p>
 <p>Contiene información del nivel o mapa y los objetos que hay en él, es el área de juego. Se crea al abrirlo directamente y se destruye al cerrarlo. Un mundo puede contener múltiples niveles a la vez.</p>
+<p><a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/Engine/ULevel/" target="_blank" title="ULevel | Unreal Engine Documentation" class="btn btn-sm btn-primary shadow-sm mb-2 me-2 px-3">API ULevel</a></p>
+<hr>
 <h3 id="actor">Actor</h3>
-<p class="mb-1"><a href="https://docs.unrealengine.com/5.1/en-US/API/Runtime/Engine/GameFramework/AActor/" target="_blank" title="AActor | Unreal Engine Documentation">Clase AActor</a></p>
 <p>Clase base de los objetos que pueden existir en un mundo. Pueden contener componentes para modificar su comportamiento. Existen mientras que el mundo que los contiene está en curso. Se crean y destruyen dependiendo de su comportamiento en el juego.</p>
+<p><a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/GameFramework/AActor/" target="_blank" title="AActor | Unreal Engine Documentation" class="btn btn-sm btn-primary shadow-sm mb-2 me-2 px-3">API AActor</a></p>
+<hr>
 <h3 id="game-mode">Game Mode</h3>
-<p class="mb-1"><a href="https://docs.unrealengine.com/5.1/en-US/API/Runtime/Engine/GameFramework/AGameModeBase/" target="_blank" title="AGameModeBase | Unreal Engine Documentation">Clase AGameModeBase</a></p>
 <p>Guarda información sobre las reglas del juego, controlador del jugador y personaje del juego. Se usa para definir el estado del jugador durante el juego. Se crea al abrir un mundo y se destruye al cerrarlo.</p>
+<p><a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/GameFramework/AGameModeBase/" target="_blank" title="AGameModeBase | Unreal Engine Documentation" class="btn btn-sm btn-primary shadow-sm mb-2 me-2 px-3">API AGameModeBase</a></p>
+<hr>
 <h3 id="game-state">Game State</h3>
-<p class="mb-1"><a href="https://docs.unrealengine.com/4.27/en-US/API/Runtime/Engine/GameFramework/AGameStateBase/" target="_blank" title="AGameStateBase | Unreal Engine Documentation">Clase AGameStateBase</a></p>
 <p>Guarda información sobre el estado global del juego. Se crea al abrir un mundo y se destruye al cerrarlo.</p>
+<p><a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/GameFramework/AGameStateBase/" target="_blank" title="AGameStateBase | Unreal Engine Documentation" class="btn btn-sm btn-primary shadow-sm mb-2 me-2 px-3">API AGameStateBase</a></p>
+<hr>
 <h3 id="player-controller">Player Controller</h3>
-<p class="mb-1"><a href="https://docs.unrealengine.com/5.1/en-US/API/Runtime/Engine/GameFramework/APlayerController/" target="_blank" title="APlayerController | Unreal Engine Documentation">Clase APlayerController</a></p>
 <p>Representa la interfaz entre el jugador y el juego, permite al jugador interactuar con el mundo. Puede poseer personajes en un mundo. Se crea al abrir un mundo y se destruye al cerrarlo.</p>
+<p><a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/GameFramework/APlayerController/" target="_blank" title="APlayerController | Unreal Engine Documentation" class="btn btn-sm btn-primary shadow-sm mb-2 me-2 px-3">API APlayerController</a></p>
+<hr>
 <h3 id="player-state">Player State</h3>
-<p class="mb-1"><a href="https://docs.unrealengine.com/4.27/en-US/API/Runtime/Engine/GameFramework/APlayerState/" target="_blank" title="APlayerState | Unreal Engine Documentation">Clase APlayerState</a></p>
 <p>Guarda información sobre el estado del jugador como dinero, marcador, vidas, etc. Se crea al abrir un mundo y se destruye al cerrarlo.</p>
+<p><a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/GameFramework/APlayerState/" target="_blank" title="APlayerState | Unreal Engine Documentation" class="btn btn-sm btn-primary shadow-sm mb-2 me-2 px-3">API APlayerState</a></p>
+<hr>
 <h3 id="pawn">Pawn</h3>
-<p class="mb-1"><a href="https://docs.unrealengine.com/5.1/en-US/API/Runtime/Engine/GameFramework/APawn/" target="_blank" title="APawn | Unreal Engine Documentation">Clase APawn</a></p>
 <p>Clase base de actores que pueden ser poseídos por un controlador. Existen mientras que el mundo que los contiene está en curso. Se crean y destruyen dependiendo de su comportamiento en el juego.</p>
+<p><a href="https://docs.unrealengine.com/5.0/en-US/API/Runtime/Engine/GameFramework/APawn/" target="_blank" title="APawn | Unreal Engine Documentation" class="btn btn-sm btn-primary shadow-sm mb-2 me-2 px-3">API APawn</a></p>
 
 	</div>
 </div>

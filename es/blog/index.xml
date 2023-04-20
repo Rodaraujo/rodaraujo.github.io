@@ -8,6 +8,16 @@
     <language>es</language>
     <lastBuildDate>Wed, 05 Apr 2023 14:11:21 -0600</lastBuildDate><atom:link href="https://rodaraujo.com/es/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Conceptos Básicos de Unreal Engine</title>
+      <link>https://rodaraujo.com/es/blog/conceptos-unreal-engine/</link>
+      <pubDate>Thu, 20 Apr 2023 09:47:18 -0600</pubDate>
+      
+      <guid>https://rodaraujo.com/es/blog/conceptos-unreal-engine/</guid>
+      <description>Desde que se convirtió en un proyecto de código abierto, Unreal Engine a aumentado su popularidad en el desarrollo de juegos. En este artículo, exploraremos algunos de los conceptos y elementos básicos de este motor de juegos. Incluiré vínculos a la página web oficial de documentación, con el único inconveniente que sólo está en inglés.
+Índice de contenidos Blueprint Ticking Actores Pawn Character Componentes Scene Component Primitive Component Meshes Static Mesh Skeletal Mesh Movement Component Character Movement Component Projectile Movement Component Floating Pawn Movement Component Materiales Blueprint Es el sistema visual de programación de Unreal Engine.</description>
+    </item>
+    
+    <item>
       <title>Estructura de un Juego de Unreal Engine</title>
       <link>https://rodaraujo.com/es/blog/estructura-juego-unreal-engine/</link>
       <pubDate>Tue, 11 Apr 2023 20:39:10 -0600</pubDate>
