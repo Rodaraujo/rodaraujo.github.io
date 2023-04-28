@@ -26,6 +26,16 @@
     </item>
     
     <item>
+      <title>Blueprints y C&#43;&#43; en Unreal Engine</title>
+      <link>https://rodaraujo.com/es/blog/blueprints-cpp-unreal-engine/</link>
+      <pubDate>Thu, 27 Apr 2023 13:01:42 -0600</pubDate>
+      
+      <guid>https://rodaraujo.com/es/blog/blueprints-cpp-unreal-engine/</guid>
+      <description>Cuando se trata de desarrollar juegos en Unreal Engine, es común pensar que se tiene que elegir entre programar en C++ o utilizar Blueprints. Existe la noción que C++ es la opción par programadores y Blueprints es para quienes no saben programar. Pero la realidad es que ambos son complementarios y pueden ser utilizados juntos para mejorar el proceso de desarrollo de un juego.
+Índice de contenidos ¿Qué son Blueprints y qué es C++?</description>
+    </item>
+    
+    <item>
       <title>Conceptos Básicos de Unreal Engine</title>
       <link>https://rodaraujo.com/es/blog/conceptos-unreal-engine/</link>
       <pubDate>Thu, 20 Apr 2023 09:47:18 -0600</pubDate>

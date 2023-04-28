@@ -6,22 +6,40 @@
     <description>Recent content in Categories on Rodrigo Araujo Soria</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 20 Apr 2023 09:47:18 -0600</lastBuildDate><atom:link href="https://rodaraujo.com/es/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Apr 2023 13:01:42 -0600</lastBuildDate><atom:link href="https://rodaraujo.com/es/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Glosario</title>
-      <link>https://rodaraujo.com/es/blog/categories/glosario/</link>
-      <pubDate>Thu, 20 Apr 2023 09:47:18 -0600</pubDate>
+      <title>Blueprints</title>
+      <link>https://rodaraujo.com/es/blog/categories/blueprints/</link>
+      <pubDate>Thu, 27 Apr 2023 13:01:42 -0600</pubDate>
       
-      <guid>https://rodaraujo.com/es/blog/categories/glosario/</guid>
+      <guid>https://rodaraujo.com/es/blog/categories/blueprints/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://rodaraujo.com/es/blog/categories/c-/</link>
+      <pubDate>Thu, 27 Apr 2023 13:01:42 -0600</pubDate>
+      
+      <guid>https://rodaraujo.com/es/blog/categories/c-/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unreal Engine</title>
       <link>https://rodaraujo.com/es/blog/categories/unreal-engine/</link>
-      <pubDate>Thu, 20 Apr 2023 09:47:18 -0600</pubDate>
+      <pubDate>Thu, 27 Apr 2023 13:01:42 -0600</pubDate>
       
       <guid>https://rodaraujo.com/es/blog/categories/unreal-engine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Glosario</title>
+      <link>https://rodaraujo.com/es/blog/categories/glosario/</link>
+      <pubDate>Thu, 20 Apr 2023 09:47:18 -0600</pubDate>
+      
+      <guid>https://rodaraujo.com/es/blog/categories/glosario/</guid>
       <description></description>
     </item>
     

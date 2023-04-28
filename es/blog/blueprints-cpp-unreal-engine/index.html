@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="es">
+
+    <head>
+      
+    <meta charset="utf-8">
+    
+    
+      <title>
+        Blueprints y C&#43;&#43; en Unreal Engine  | Rodrigo Araujo Soria 
+      </title>
+    
+
+    
+    <meta name="description" content="Unreal Engine ofrece 2 lenguajes de programación para que los desarrolladores creen sus juegos, uno es el longevo y tradicional C&#43;&#43; y el otro es un sistema de scripting visual y amigable basado en nodos llamado Blueprints. ¿Cuál de estos dos lenguajes es el mejor para aprender?" />
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/custom-style.css"  crossorigin="anonymous">
+    
+    <script src="https://kit.fontawesome.com/cdbfd2dd11.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                                                         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+             })(window,document,'script','dataLayer','GTM-NC7KJLD');</script>
+    
+  </head>
+
+
+  <body>
+    
+
+
+<div id="rod-nav" class="fixed-top bg-rod-light-blur shadow-sm"></div>
+  <nav class="navbar navbar-expand-md fixed-top">
+    <div class="navbar col-11 col-md-12 p-0 container">
+    
+    <a class="navbar-brand ml-2" href="/es">
+    
+      <div class="align-items-center row row-cols-2 gx-2 gy-0">
+        <img src="/images/logo-dark.svg" class="mr-1" alt="Logo" style="width:34px;">
+        <span class="rod-logo-title">Rodrigo Araujo Soria</span>
+      </div>
+    </a>
+
+    <button class="navbar-toggler px-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end collapsibleNavbarLight" id="collapsibleNavbar">
+      <ul class="navbar-nav ">
+        
+          <li class="nav-item text-center">
+            <a class="nav-link" href="/es/about/">Acerca de</a>
+          </li>
+        
+          <li class="nav-item text-center">
+            <a class="nav-link" href="/es/projects/">Proyectos</a>
+          </li>
+        
+          <li class="nav-item text-center">
+            <a class="nav-link" href="/es/blog/">Blog</a>
+          </li>
+        
+          <li class="nav-item text-center">
+            <a class="nav-link" href="/es/resume/">Hoja de Vida</a>
+          </li>
+        
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    
+<div class="container col col-md-8 mb-5 pb-5 rod-content">
+	<div class="text-center mt-5 pt-2">
+	
+			  – <a class="small text-decoration-none" href="https://rodaraujo.com/es/blog/">Blog</a> –
+	
+</div>
+<h1 class="text-center mb-0" id="rod-title">Blueprints y C&#43;&#43; en Unreal Engine</h1>
+    <div class="col-8 col-md-5 mx-auto d-flex flex-row align-items-center justify-content-center divider py-4">
+    <hr class="col-4 m-0">
+    <span class="divider-decoration col-auto mx-2">
+        <i class="fas fa-dot-circle"></i>
+         <span style="font-size: 1.25rem; margin: 0px 3px 0px 3px">
+            <i class="fas fa-chess-pawn"></i>
+        </span>
+        <i class="fas fa-dot-circle"></i>
+    </span>
+    <hr class="col-4 m-0">
+</div>
+
+    <p class="small text-center mx-0 ">27 de abril de 2023</p>
+    <div class="d-flex mb-3 flex-wrap justify-content-center">
+    
+        <a href="https://rodaraujo.com/es/blog/categories/unreal-engine/" class="rod-btn py-0 px-2 mt-0 mx-2 small rod-rounded mb-3">Unreal Engine</a>
+    
+        <a href="https://rodaraujo.com/es/blog/categories/blueprints/" class="rod-btn py-0 px-2 mt-0 mx-2 small rod-rounded mb-3">Blueprints</a>
+    
+        <a href="https://rodaraujo.com/es/blog/categories/c-/" class="rod-btn py-0 px-2 mt-0 mx-2 small rod-rounded mb-3">C&#43;&#43;</a>
+    
+</div>
+
+	<div>
+		<p>Cuando se trata de desarrollar juegos en Unreal Engine, es común pensar que se tiene que elegir entre programar en <a target="_blank" href="https://docs.unrealengine.com/5.1/en-US/programming-with-cplusplus-in-unreal-engine/" title="Programming with C++ | Unreal Engine">C++</a> o utilizar <a href="/es/blog/conceptos-unreal-engine/#blueprint" title="Blueprints">Blueprints</a>. Existe la noción que C++ es la opción par programadores y Blueprints es para quienes no saben programar. Pero la realidad es que ambos son complementarios y pueden ser utilizados juntos para mejorar el proceso de desarrollo de un juego.</p>
+<div class="rod-content-inner small bg-white rod-rounded px-4 py-2 my-4 shadow-sm">
+	<h2 class="h5 pt-3">Índice de contenidos</h2>
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#qué-son-blueprints-y-qué-es-c">¿Qué son Blueprints y qué es C++?</a></li>
+    <li><a href="#niveles-de-código">Niveles de Código</a></li>
+    <li><a href="#trabajo-en-conjunto">Trabajo en Conjunto</a></li>
+    <li><a href="#desempeño">Desempeño</a></li>
+    <li><a href="#entonces-cuándo-usar-cuál">¿Entonces Cuándo Usar Cuál?</a>
+      <ul>
+        <li><a href="#blueprints">Blueprints</a></li>
+        <li><a href="#c">C++</a></li>
+      </ul>
+    </li>
+    <li><a href="#control-de-versiones">Control de Versiones</a></li>
+    <li><a href="#conclusión">Conclusión</a></li>
+  </ul>
+</nav>
+</div>
+<h2 id="qué-son-blueprints-y-qué-es-c">¿Qué son Blueprints y qué es C++?</h2>
+<p>Más que un motor de juegos, Unreal Engine es un framework de software que proporciona una amplia variedad de herramientas y recursos para el desarrollo experiencias interactivas en tiempo real. Como tal, tiene un paradigma de diseño que se centra en la modularidad y la reutilización de código. Es decir que se pueden crear componentes y sistemas que pueden ser utilizados en múltiples proyectos y que se pueden actualizar y mejorar de manera independiente.</p>
+<p>Para el diseño de una implementación de software, por ejemplo para un juego de video, es útil pensar que sus funciones complejas de alto nivel están compuestas por funciones más simples de bajo nivel. Por ejemplo, se puede crear un cañón que tiene distintas funciones de alto nivel como disparar y apuntar. Pero estas abstracciones deben estar implementadas a partir de las funciones de bajo nivel que Unreal Engine provee, por ejemplo crear la instancia de una bala de cañón o rotar un objeto. Cómo es que se implementa las funciones de bajo nivel para que representen un cañón con sus funciones de alto nivel es precisamente el trabajo del desarrollador, y cada implementación será distinta dependiendo de los objetivos que el software final tenga.</p>
+<p>Unreal Engine ofrece 2 formas para trabajar las implementaciones, una es utilizando <a target="_blank" href="https://docs.unrealengine.com/5.1/en-US/programming-with-cplusplus-in-unreal-engine/" title="Programming with C++ | Unreal Engine">C++</a> y la otra es utilizando <a href="/es/blog/conceptos-unreal-engine/#blueprint" title="Blueprints">Blueprints</a>. C++ es un lenguaje de programación tradicional y es el lenguaje con el que se creó Unreal Engine. Es un lenguaje de bajo nivel y se puede utilizar hasta para modificar el motor. Por otro lado, Blueprints es un sistema y lenguaje de scripting visual de Unreal Engine que utiliza nodos para representar el flujo de datos y las funciones en un juego. Al igual que C++, puede utilizarse para crear clases y heredar propiedades de una clase a otra.</p>
+<p>Las funciones de bajo nivel y el motor en sí están escritos en C++ y la mayoría de estas funciones son accesibles en el sistema de Blueprints. Es así como la implementación de un cañón puede ser construida con ambos lenguajes. Entonces llegamos a la pregunta, ¿cómo elegir qué lenguaje usar?</p>
+<h2 id="niveles-de-código">Niveles de Código</h2>
+<p>Para empezar a contestar esta pegunta debemos explorar un poco más el paradigma de diseño de Unreal Engine. En general, hay tres niveles de programación:</p>
+<ol>
+<li>El nivel de motor, que utiliza C++.</li>
+<li>Los sistemas base de la implementación (bajo nivel), podemos pensar en esto com los sistemas básicos de un juego. Estos  que pueden ser escritos en C++ o Blueprints.</li>
+<li>Las abstracciones de la implementación (alto nivel), equivalentes a los objetos y personajes del juego que pueden ser C++ o Blueprints.</li>
+</ol>
+<p>De nuevo, que tanto de los sistemas y abstracciones está escrito en cada lenguaje depende de otros factores como las necesidades del proyecto y las habilidades del equipo de desarrollo. Algunos proyectos pueden utilizar más C++, mientras que otros pueden utilizar más Blueprints.</p>
+<h2 id="trabajo-en-conjunto">Trabajo en Conjunto</h2>
+<p>Blueprints y C++ pueden utilizarse juntos en un proyecto principalmente porque el API es el mismo, ambos utilizan las mismas funciones y propiedades. Además, hay interoperabilidad entre ellos. Por ejemplo, se puede crear una función en C++ y luego llamarla desde Blueprints, manipular una instancia de un objeto creado en Blueprints utilizando C++ o  crear una clase de Blueprints usando una clase de C++ como la clase madre. Esto es gracias al <a target="_blank" href="https://docs.unrealengine.com/5.1/en-US/unreal-header-tool-for-unreal-engine/" title="Unreal Header Tool | Unreal Engine">Unreal Header Tool</a>, una herramienta que automatiza la implementación de C++ en Blueprints. El UHT se encarga de procesar el código C++ antes de ser compilado y añade funciones según las etiquetas que encuentre en el código para definir cómo se puede interactuar con ese código utilizando Blueprints.</p>
+<p>Sin embargo, es importante tomar en cuenta que esta relación es unidireccional, en Blueprints se tiene acceso al código y clases de C++, pero en C++ no hay acceso directo al código o a las clases creadas en Blueprints.</p>
+<h2 id="desempeño">Desempeño</h2>
+<p>Una de las comparaciones principales entre los lenguajes es la velocidad de ejecución de cada uno. Hay que recordar que Blueprints sigue siendo un sistema de scripting y como tal es interpretado en lugar de ser compilado. En <a target="_blank" href="https://es.wikipedia.org/wiki/Lenguaje_de_programación_compilado" title="Lenguaje de programación compilado | Wikipedia">lenguajes de programación</a> como C++ el código debe ser compilado antes de poder ser ejecutarlo, o sea se traduce directamente a lenguaje de máquina que el procesador de una computadora puede ejecutar; el lenguaje compilado se ejecuta directamente en el procesador. A diferencia de ello, los <a target="_blank" href="https://es.wikipedia.org/wiki/Script#Traducción" title="Script | Wikipedia">lenguajes de scripting</a> son interpretados, o sea no se compila en lenguaje de máquina sino que se ejecuta directamente. Entre el script de Blueprints y el procesador hay una capa de instrucciones básicas que interpreta lo que el Blueprint quiere hacer y construye su funcionamiento en lenguaje de máquina utilizando instrucciones precompiladas. Como resultado, el código escrito con Blueprints generalmente utiliza más instrucciones para lograr el mismo resultado que esa mismo código en C++, lo que toma más tiempo.</p>
+<p>Normalmente se considera que el código escrito en Blueprints es más lento que su contraparte en C++, pero esto depende del contexto. Si un <a href="/es/blog/conceptos-unreal-engine/#actores" title="Actores">actor</a> está ejecutando una función cada Tick, no se notaría la diferencia si el código está escrito en cualquiera de los 2 lenguajes. Pero si hay miles de actores ejecutando la misma función cada Tick, es probable notar la diferencia entre C++ y Blueprints.</p>
+<h2 id="entonces-cuándo-usar-cuál">¿Entonces Cuándo Usar Cuál?</h2>
+<p>La flexibilidad de Unreal Engine permite que cada equipo de trabajo pueda trabajar con uno o ambos lenguajes según sus necesidades. Pero podemos definir ciertos casos generales en los que es más recomendable utilizar un lenguaje sobre otro.</p>
+<h3 id="blueprints">Blueprints</h3>
+<p>Sus usos son más recomendados para desarrollo de alto nivel. Su sistema visual de nodos y rápida ejecución permite que usuarios que no son programadores se familiaricen y construyan sistemas en Unreal Engine. Es recomendable utilizar Blueprints en los siguientes casos:</p>
+<ol>
+<li>
+<h4 id="iteración-y-prototipado">Iteración y Prototipado</h4>
+<p>Cuando se está experimentando con ideas sobre cómo implementar funciones o se estén poniendo a prueba diferentes tipos de funciones. La facilidad de comprender la ejecución de eventos en los nodos de Blueprints y el hecho que no tienen que ser compilados, permite realizar cambios en sus instrucciones de manera rápida e intuitiva, lo que tomaría considerablemente más tiempo en C++. Esto puede incluir desde ideas para una habilidad o un arma, hasta el prototipo de un juego completo.</p>
+</li>
+<li>
+<h4 id="secuencias-de-eventos">Secuencias de Eventos</h4>
+<p>Cuando se quiere programar una secuencia de acciones que los actores de un juego deben realizar de forma automática. Si bien se puede realizar en C++, la coordinación de eventos y temporizadores es mucho más engorrosa y desordenada que en Blueprints. Además Unreal Cuenta con una herramienta llamada <a target="_blank" href="https://docs.unrealengine.com/5.1/en-US/how-to-make-movies-in-unreal-engine/" title="Sequencer Basics | Unreal Engine">Sequencer</a> para coordinar eventos como secuencias cinematográficas y esta herramienta esta integrada con el sistema de eventos del motor utilizando Blueprints.</p>
+</li>
+<li>
+<h4 id="implementación-de-assets">Implementación de Assets</h4>
+<p>Cuando se quieren implementar diferentes tipos de archivos como sonidos, modelos 3D, materiales, etc. (conocidos como <a target="_blank" href="https://docs.unrealengine.com/5.1/en-US/assets-and-content-packs-in-unreal-engine/" title="Assets and Content Packs | Unreal Engine">Assets</a>) en diferentes clases de objetos o en diferentes instancias de objetos. Hacer esto en C++ requiere que el código tenga referencias a los archivos del juego por su dirección en el directorio de archivos; y por ser compilado, requeriría que la clase de C++ que implementa estos archivos deba conocer todos los tipos de archivos disponibles. Esto implica 2 grandes cosas, primero que cambiar de lugar o nombre el archivo requiere que el código que lo referencia en C++ deba compilarse de nuevo, y segundo que al correr el juego todos estos archivos se estarían cargando en memoria haciendo el juego menos eficiente. Los Blueprints como tal son assets y por lo tanto la referencia entre assets se mantiene sin necesidad de volver a compilar código; de esta manera los Blueprints permiten cambiar y reordenar los archivos y sus referencias de forma más eficiente y menos complicada que en C++.</p>
+</li>
+</ol>
+<h3 id="c">C++</h3>
+<p>Su uso es para desarrollo de bajo nivel. Siendo el lenguaje usado para crear Unreal Engine, se utiliza para modificar el código base del motor.  Se recomienda para los siguientes casos:</p>
+<ol>
+<li>
+<h4 id="funciones-complejas">Funciones Complejas</h4>
+<p>Cuando hay necesidad de ejecutar funciones que tengan un proceso complejo y una cantidad considerable de instrucciones. Por ser un lenguaje compilado, la cantidad de instrucciones para ejecutar código en C++ es mucho menor a la cantidad que necesita la misma ejecución en Blueprints, por lo que funciones complejas son más eficientes en este lenguaje.</p>
+</li>
+<li>
+<h4 id="código-base">Código Base</h4>
+<p>Cuando se esté planificando el código que describirá los sistemas y objetos base de un proyecto. Cuando se crean clases que serán la base de muchos objetos en un proyecto, con C++ se puede mantener una base más eficiente que permita mantener un buen desempeño cuando haya múltiples objetos utilizando esa base de código al mismo tiempo.</p>
+</li>
+<li>
+<h4 id="integración-de-bibliotecas-externas">Integración de Bibliotecas Externas</h4>
+<p>Cuando se quieran <a target="_blank" href="https://docs.unrealengine.com/5.1/en-US/integrating-third-party-libraries-into-unreal-engine/" title="Third-Party Libraries | Unreal Engine">integrar bibliotecas de software</a> que no fueron diseñadas para ser implementadas directamente en Unreal Engine. Por ser un lenguaje longevo y de amplio uso, hay muchas bibliotecas que permiten expandir la funcionalidad de distintos programas de computadora. Unreal Engine es al final de cuentas uno de estos programas y con C++ se pueden integrar diferentes bibliotecas que ofrecen diferentes tipos de funcionalidad mas allá de la que el motor puede hacer.</p>
+</li>
+</ol>
+<h2 id="control-de-versiones">Control de Versiones</h2>
+<p>Existe una última consideración a la hora de trabajar con Blueprints y C++, y esta es la integración con <a target="_blank" href="https://docs.unrealengine.com/5.1/en-US/collaboration-and-version-control-in-unreal-engine/" title="Collaboration and Version Control | Unreal Engine">sistemas de control de versiones</a>. Unreal Engine recomienda Perforce o SVN como las herramientas de control de versiones integradas con el motor, pero Git también tiene soporte. Esta <a target="_blank" href="https://docs.unrealengine.com/5.1/en-US/source-control-in-unreal-engine/" title="Source Control | Unreal Engine">integración con el motor</a> es importante porque los Blueprints son assets, son archivos binarios y no código en archivos de texto. Lo que esto implica es que los Blueprints sólo pueden ser comparados con otras versiones dentro del motor, ya que sólo ahí pueden editarse. Como estos archivos guardan referencias a otros archivos, las comparaciones con versiones que tengan referencias a archivos que ya no existen pueden generar errores a la hora de revisarlos. Además, no pueden ser combinados automáticamente, siempre requieren la intervención de un usuario para definir cómo 2 archivos con conflictos deben mezclarse.</p>
+<h2 id="conclusión">Conclusión</h2>
+<p>Tanto Blueprints como C++ son lenguajes de programación bastante poderosos para el desarrollo de juegos en Unreal Engine. Hay una clara intención que promueve que la base del código de un proyecto se escribe en C++ para luego ser implementada utilizando Blueprints, pero la línea que los divide se deja a discreción de cada proyecto y cada desarrollador. De cualquier manera, se utilice el lenguaje que se prefiera, tanto Unreal Engine como los dispositivos modernos permiten que no haya casi ninguna desventaja al favorecer un lenguaje por sobre otro.</p>
+
+	</div>
+</div>
+
+
+    <div class="container-fluid py-5 mt-5 text-center bg-white">
+  <h2 class="mt-3">Si te interesa saber mas...</h2>
+  <p class="mb-0">Puedes escribirme a <a href="mailto:me@rodaraujo.com">me@rodaraujo.com</a>.</p>
+
+  <div class="col-8 col-md-5 mx-auto d-flex flex-row align-items-center justify-content-center divider py-4">
+    <hr class="col-4 m-0">
+    <span class="divider-decoration col-auto mx-2">
+        <i class="fas fa-dot-circle"></i>
+         <span style="font-size: 1.25rem; margin: 0px 3px 0px 3px">
+            <i class="fas fa-chess-rook"></i>
+        </span>
+        <i class="fas fa-dot-circle"></i>
+    </span>
+    <hr class="col-4 m-0">
+</div>
+  
+  <p>
+    Rodrigo Araujo Soria, 2023
+  </p>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC7KJLD"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+<script>
+    var nav = document.getElementById('rod-nav')
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (window.scrollY > 0) {
+            nav.style.opacity = 1;
+        } else {
+            nav.style.opacity = 0;
+        }
+    }
+</script>
+
+  </body>
+
+</html>
