@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portafolio on Rodrigo Araujo Soria</title>
+    <link>https://rodaraujo.com/es/portfolio/</link>
+    <description>Recent content in Portafolio on Rodrigo Araujo Soria</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 26 May 2025 14:40:10 -0600</lastBuildDate>
+    <atom:link href="https://rodaraujo.com/es/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gamble to Win</title>
+      <link>https://rodaraujo.com/es/portfolio/gamble-to-win/</link>
+      <pubDate>Mon, 26 May 2025 14:40:10 -0600</pubDate>
+      <guid>https://rodaraujo.com/es/portfolio/gamble-to-win/</guid>
+      <description>&lt;p&gt;Acerca una silla. La taberna está llena, las copas corren y las cartas ya están sobre la mesa.&lt;/p&gt;&#xA;&lt;p&gt;En este juego de cartas con reglas propias, creado en 30 días para una game jam, te adentras en un mundo donde las cartas son la forma más antigua de ganarse unas monedas extra. Las reglas son tuyas para aprender, las apuestas son tuyas para hacer, y hasta dónde estiras tu suerte depende solo de ti. Juega con cautela y retírate tranquilo, o apuesta todas tus fichas y mira qué te depara el destino.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Scarecrow 9000</title>
+      <link>https://rodaraujo.com/es/portfolio/scarecrow/</link>
+      <pubDate>Sun, 02 Oct 2022 14:40:10 -0600</pubDate>
+      <guid>https://rodaraujo.com/es/portfolio/scarecrow/</guid>
+      <description>&lt;p&gt;Un juego de supervivencia por oleadas inspirado en Vampire Survivors hecho para un Game Jam de un mes, pero los monstruos son cuervos y lo que está en juego son unas vacaciones en la luna.&lt;/p&gt;&#xA;&lt;p&gt;Eres un granjero con un sueño: $3,000 para un viaje a un resort lunar. El problema: los cuervos están arrasando tus cultivos antes de que puedas cosechar nada. Tu solución: el Scarecrow 9000®, un robot de última generación creado para proteger lo que es tuyo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hard Shelled</title>
+      <link>https://rodaraujo.com/es/portfolio/hardshelled/</link>
+      <pubDate>Mon, 04 Jul 2022 14:40:10 -0600</pubDate>
+      <guid>https://rodaraujo.com/es/portfolio/hardshelled/</guid>
+      <description>&lt;p&gt;Landing Page is full HTML in /layouts/projects/hardshelled-baseof.html&lt;/p&gt;&#xA;&lt;p&gt;This file contains metadata used for HTML, SEO and Hugo content views.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AudioRetrato</title>
+      <link>https://rodaraujo.com/es/portfolio/audioretrato/</link>
+      <pubDate>Tue, 15 Sep 2020 12:00:43 -0600</pubDate>
+      <guid>https://rodaraujo.com/es/portfolio/audioretrato/</guid>
+      <description>&lt;p&gt;AudioRetrato es una recopilación de entrevistas a personas con experiencias poco comunes. Todas las personas en el mundo tienen algo que las hace diferentes a las demás, y con esto su punto de vista es único. En cada episodio se busca entender el punto de vista de los entrevistados con el fin de conocer las convicciones y motivaciones que los llevaron a vivir esas experiencias inhabituales. &lt;a href=&#34;https://rodaraujo.com/es/portfolio/audioretrato/#how-to-listen&#34;&gt;Puedes escucharlo aquí.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;mx-auto hide-on-apple my-5 col-12 col-lg-10&#34;&gt;&#xA;&lt;iframe src=&#34;https://open.spotify.com/embed/show/6TeD3WG4FN7LFhjFiWul73?utm_source=generator&amp;theme=1&#34; width=&#34;100%&#34; height=&#34;232&#34; frameBorder=&#34;0&#34; allowfullscreen=&#34;&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34; class=&#34;shadow-sm&#34;&gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mx-auto show-on-apple my-5&#34; style=&#34;width: 100%; max-width: 660px;&#34;&gt;&#xA;&lt;iframe src=&#34;https://embed.podcasts.apple.com/us/podcast/audioretrato/id1487587990?itsct=podcast_box_player&amp;amp;itscg=30200&amp;amp;ls=1&amp;amp;theme=light&#34; height=&#34;450px&#34; frameborder=&#34;0&#34; sandbox=&#34;allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation&#34; allow=&#34;autoplay *; encrypted-media *;&#34; style=&#34;width: 100%; max-width: 660px; overflow: hidden; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; background-color: transparent;&#34; class=&#34;shadow-sm&#34;&gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&lt;h2 id=&#34;disponible-en-distintas-plataformas&#34;&gt;Disponible en Distintas Plataformas&lt;/h2&gt;&#xA;&lt;p&gt;Puedes escuchar los episodios de AudioRetrato en:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TankBot</title>
+      <link>https://rodaraujo.com/es/portfolio/tankbot/</link>
+      <pubDate>Fri, 06 Jul 2018 14:40:10 -0600</pubDate>
+      <guid>https://rodaraujo.com/es/portfolio/tankbot/</guid>
+      <description>&lt;p&gt;TankBot es un prototipo de videojuego en 3D que busca imitar el estilo emocionante de juegos como Contra y Metal Slug. Los modelos, sonidos y animaciones utilizados son solamente versiones simplificadas para ejemplificar la experiencia del juego.&lt;/p&gt;&#xA;&lt;p&gt;A diferencia de otros juegos de disparos en tercera persona, TankBot premia a los jugadores por ser agresivos contra los enemigos, activando mejoras durante el combate. ¡Si logras destruir un robot enemigo, obtendrás más herramientas para destruir al resto!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
