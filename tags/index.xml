@@ -4,7 +4,8 @@
     <title>Tags on Rodrigo Araujo Soria</title>
     <link>https://rodaraujo.com/tags/</link>
     <description>Recent content in Tags on Rodrigo Araujo Soria</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://rodaraujo.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://rodaraujo.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

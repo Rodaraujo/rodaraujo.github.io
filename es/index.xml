@@ -4,85 +4,79 @@
     <title>Rodrigo Araujo Soria</title>
     <link>https://rodaraujo.com/es/</link>
     <description>Recent content on Rodrigo Araujo Soria</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 12 Jul 2018 19:26:31 -0600</lastBuildDate><atom:link href="https://rodaraujo.com/es/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 May 2025 14:40:10 -0600</lastBuildDate>
+    <atom:link href="https://rodaraujo.com/es/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Acerca de</title>
       <link>https://rodaraujo.com/es/about/</link>
       <pubDate>Wed, 11 Jul 2018 00:32:03 -0600</pubDate>
-      
       <guid>https://rodaraujo.com/es/about/</guid>
       <description>&lt;p&gt;Soy un Diseñador de Juegos, Diseñador Web especializado en Manejo de Proyectos y un Planificador de Marketing Digital de Guatemala.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hoja de Vida</title>
       <link>https://rodaraujo.com/es/resume/</link>
       <pubDate>Wed, 11 Jul 2018 09:50:44 -0600</pubDate>
-      
       <guid>https://rodaraujo.com/es/resume/</guid>
-      <description>Tecnología y Experticia Manejo completo de: Unreal Engine Blender Unreal Motion Graphics HTML, CSS, JavaScript WordPress Drupal Hugo Static Site Generator Experiencia con: Laravel C++ PHP AutoCAD Adobe Creative Cloud Affinity Designer Experiencia Laboral 2014 – Hoy Project Manager BTO Software BTO Software (2014 – Hoy) Administración de desarrollo de proyectos para sitios y aplicaciones web. Administración de comunicación y solicitudes de clientes. Diseño Web y de UI/UX preliminar para sitios y aplicaciones.</description>
+      <description>&lt;h2 id=&#34;tecnología-y-experticia&#34;&gt;Tecnología y Experticia&lt;/h2&gt;&#xA;&lt;div class=&#34;row&#34;&gt;&#xA;&lt;div class=&#34;col-12 col-md-6 col-lg-4 mx-auto&#34;&gt;&#xA;&lt;h3 id=&#34;manejo-completo-de&#34;&gt;Manejo completo de:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Unreal Engine&lt;/li&gt;&#xA;&lt;li&gt;Blender&lt;/li&gt;&#xA;&lt;li&gt;Unreal Motion Graphics&lt;/li&gt;&#xA;&lt;li&gt;HTML, CSS, JavaScript&lt;/li&gt;&#xA;&lt;li&gt;WordPress&lt;/li&gt;&#xA;&lt;li&gt;Drupal&lt;/li&gt;&#xA;&lt;li&gt;Hugo Static Site Generator&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;col-12 col-md-6 col-lg-4 mx-auto&#34;&gt;&#xA;&lt;h3 id=&#34;experiencia-con&#34;&gt;Experiencia con:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Laravel&lt;/li&gt;&#xA;&lt;li&gt;C++&lt;/li&gt;&#xA;&lt;li&gt;PHP&lt;/li&gt;&#xA;&lt;li&gt;AutoCAD&lt;/li&gt;&#xA;&lt;li&gt;Adobe Creative Cloud&lt;/li&gt;&#xA;&lt;li&gt;Affinity Designer&lt;/li&gt;&#xA;&lt;li&gt;Atlassian Tools&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;experiencia-laboral&#34;&gt;Experiencia Laboral&lt;/h2&gt;&#xA;&lt;div class=&#34;row&#34;&gt;&#xA;&lt;div class=&#34;col-3 pt-3 d-none d-lg-block&#34;&gt;&#xA;&lt;span class=&#34;font-weight-light&#34;&gt;2024 – Hoy&lt;/span&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;col&#34;&gt;&#xA;&lt;h3 id=&#34;project-manager&#34;&gt;Project Manager&lt;/h3&gt;&#xA;&lt;div class=&#34;d-none d-lg-block&#34;&gt;&#xA;&lt;span class=&#34;font-weight-light&#34;&gt;BairesDev&lt;/span&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;d-block d-lg-none&#34;&gt;&#xA;&lt;span class=&#34;font-weight-light&#34;&gt;BairesDev (2024 – Hoy)&lt;/span&gt;&#xA;&lt;/div&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Gestión de la comunicación directa con clientes, asegurando claridad en expectativas y visibilidad del progreso.&lt;/li&gt;&#xA;&lt;li&gt;Coordinación de la planificación de recursos y asignación de ingenieros en proyectos activos.&lt;/li&gt;&#xA;&lt;li&gt;Monitoreo proactivo de riesgos para evitar que impacten la entrega.&lt;/li&gt;&#xA;&lt;li&gt;Resolución ágil de problemas para no afectar los tiempos comprometidos.&lt;/li&gt;&#xA;&lt;li&gt;Puente entre equipos técnicos y stakeholders de negocio.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;row&#34;&gt;&#xA;&lt;div class=&#34;col-3 pt-3 d-none d-lg-block&#34;&gt;&#xA;&lt;span class=&#34;font-weight-light&#34;&gt;2014 – 2024&lt;/span&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;col&#34;&gt;&#xA;&lt;h3 id=&#34;project-manager--product-owner&#34;&gt;Project Manager / Product Owner&lt;/h3&gt;&#xA;&lt;p&gt;&lt;span class=&#34;font-weight-light&#34;&gt;Tribal WorldWide (2024 – 2024)&lt;/span&gt;&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Gamble to Win</title>
+      <link>https://rodaraujo.com/es/portfolio/gamble-to-win/</link>
+      <pubDate>Mon, 26 May 2025 14:40:10 -0600</pubDate>
+      <guid>https://rodaraujo.com/es/portfolio/gamble-to-win/</guid>
+      <description>&lt;p&gt;Acerca una silla. La taberna está llena, las copas corren y las cartas ya están sobre la mesa.&lt;/p&gt;&#xA;&lt;p&gt;En este juego de cartas con reglas propias, creado en 30 días para una game jam, te adentras en un mundo donde las cartas son la forma más antigua de ganarse unas monedas extra. Las reglas son tuyas para aprender, las apuestas son tuyas para hacer, y hasta dónde estiras tu suerte depende solo de ti. Juega con cautela y retírate tranquilo, o apuesta todas tus fichas y mira qué te depara el destino.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Blueprints y C&#43;&#43; en Unreal Engine</title>
       <link>https://rodaraujo.com/es/blog/blueprints-cpp-unreal-engine/</link>
       <pubDate>Thu, 27 Apr 2023 13:01:42 -0600</pubDate>
-      
       <guid>https://rodaraujo.com/es/blog/blueprints-cpp-unreal-engine/</guid>
-      <description>Cuando se trata de desarrollar juegos en Unreal Engine, es común pensar que se tiene que elegir entre programar en C++ o utilizar Blueprints. Existe la noción que C++ es la opción par programadores y Blueprints es para quienes no saben programar. Pero la realidad es que ambos son complementarios y pueden ser utilizados juntos para mejorar el proceso de desarrollo de un juego.
-Índice de contenidos ¿Qué son Blueprints y qué es C++?</description>
+      <description>&lt;p&gt;Cuando se trata de desarrollar juegos en Unreal Engine, es común pensar que se tiene que elegir entre programar en &lt;a target=&#34;_blank&#34; href=&#34;https://www.ingenierobinario.com/aprenderaprogramar1/&#34; title=&#34;Aprender C++, Tutorial Escrito y en Video | Ingeniero Binario&#34;&gt;C++&lt;/a&gt; o utilizar &lt;a href=&#34;https://rodaraujo.com/es/blog/conceptos-unreal-engine/#blueprint&#34; title=&#34;Blueprints&#34;&gt;Blueprints&lt;/a&gt;. Existe la noción que C++ es la opción par programadores y Blueprints es para quienes no saben programar. Pero la realidad es que ambos son complementarios y pueden ser utilizados juntos para mejorar el proceso de desarrollo de un juego.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Conceptos Básicos de Unreal Engine</title>
       <link>https://rodaraujo.com/es/blog/conceptos-unreal-engine/</link>
       <pubDate>Thu, 20 Apr 2023 09:47:18 -0600</pubDate>
-      
       <guid>https://rodaraujo.com/es/blog/conceptos-unreal-engine/</guid>
-      <description>Desde que se convirtió en un proyecto de código abierto, Unreal Engine a aumentado su popularidad en el desarrollo de juegos. En este artículo, exploraremos algunos de los conceptos y elementos básicos de este motor de juegos. Incluiré vínculos a la página web oficial de documentación, con el único inconveniente que sólo está en inglés.
-Índice de contenidos Blueprint Ticking Actores Pawn Character Componentes Scene Component Primitive Component Meshes Static Mesh Skeletal Mesh Movement Component Character Movement Component Projectile Movement Component Floating Pawn Movement Component Materiales Blueprint Es el sistema visual de programación de Unreal Engine.</description>
+      <description>&lt;p&gt;Desde que se convirtió en un proyecto de código abierto, Unreal Engine a aumentado su popularidad en el desarrollo de juegos. En este artículo, exploraremos algunos de los conceptos y elementos básicos de este motor de juegos. Incluiré vínculos a la página web oficial de documentación, con el único inconveniente que sólo está en inglés.&lt;/p&gt;&#xA;&lt;div class=&#34;rod-content-inner small bg-white rod-rounded px-4 py-2 my-4 shadow-sm&#34;&gt;&#xA;&#x9;&lt;h2 class=&#34;h5 pt-3&#34;&gt;Índice de contenidos&lt;/h2&gt;&#xA;&#x9;&lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#blueprint&#34;&gt;Blueprint&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#ticking&#34;&gt;Ticking&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#actores&#34;&gt;Actores&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#pawn&#34;&gt;Pawn&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#character&#34;&gt;Character&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#componentes&#34;&gt;Componentes&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#scene-component&#34;&gt;Scene Component&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#primitive-component&#34;&gt;Primitive Component&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#meshes&#34;&gt;Meshes&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#static-mesh&#34;&gt;Static Mesh&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#skeletal-mesh&#34;&gt;Skeletal Mesh&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#movement-component&#34;&gt;Movement Component&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#character-movement-component&#34;&gt;Character Movement Component&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#projectile-movement-component&#34;&gt;Projectile Movement Component&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#floating-pawn-movement-component&#34;&gt;Floating Pawn Movement Component&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#materiales&#34;&gt;Materiales&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;/div&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;blueprint&#34;&gt;Blueprint&lt;/h2&gt;&#xA;&lt;p&gt;Es el sistema visual de programación de Unreal Engine. Permite a los desarrolladores crear lógica de juego y comportamientos a través de la creación de diagramas de flujo. Al igual que el lenguaje de programación del motor, C++, los blueprints pueden ser extendidos por herencia. Sólo se pueden editar y compilar en la aplicación de Unreal Engine.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Estructura de un Juego de Unreal Engine</title>
       <link>https://rodaraujo.com/es/blog/estructura-juego-unreal-engine/</link>
       <pubDate>Tue, 11 Apr 2023 20:39:10 -0600</pubDate>
-      
       <guid>https://rodaraujo.com/es/blog/estructura-juego-unreal-engine/</guid>
-      <description>En el mundo de los videojuegos, Unreal Engine se ha convertido en una herramienta fundamental para muchos desarrolladores, pero uno de los desafíos que se enfrenta al trabajar con esta plataforma es comprender su estructura. Una de las cosas que lo hace confuso es la existencia de varios objetos y abstracciones similares, que puede hacer difícil distinguirlos y entender cuál es el objeto más adecuado para una tarea específica. Por ello es beneficioso tener un buen conocimiento de cómo el motor arranca y se crea la estructura de un juego.</description>
+      <description>&lt;p&gt;En el mundo de los videojuegos, Unreal Engine se ha convertido en una herramienta fundamental para muchos desarrolladores, pero uno de los desafíos que se enfrenta al trabajar con esta plataforma es comprender su estructura. Una de las cosas que lo hace confuso es la existencia de varios objetos y abstracciones similares, que puede hacer difícil distinguirlos y entender cuál es el objeto más adecuado para una tarea específica. Por ello es beneficioso tener un buen conocimiento de cómo el motor arranca y se crea la estructura de un juego.&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Scarecrow 9000</title>
+      <link>https://rodaraujo.com/es/portfolio/scarecrow/</link>
+      <pubDate>Sun, 02 Oct 2022 14:40:10 -0600</pubDate>
+      <guid>https://rodaraujo.com/es/portfolio/scarecrow/</guid>
+      <description>&lt;p&gt;Un juego de supervivencia por oleadas inspirado en Vampire Survivors hecho para un Game Jam de un mes, pero los monstruos son cuervos y lo que está en juego son unas vacaciones en la luna.&lt;/p&gt;&#xA;&lt;p&gt;Eres un granjero con un sueño: $3,000 para un viaje a un resort lunar. El problema: los cuervos están arrasando tus cultivos antes de que puedas cosechar nada. Tu solución: el Scarecrow 9000®, un robot de última generación creado para proteger lo que es tuyo.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hard Shelled</title>
-      <link>https://rodaraujo.com/es/projects/hardshelled/</link>
+      <link>https://rodaraujo.com/es/portfolio/hardshelled/</link>
       <pubDate>Mon, 04 Jul 2022 14:40:10 -0600</pubDate>
-      
-      <guid>https://rodaraujo.com/es/projects/hardshelled/</guid>
-      <description>Landing Page is full HTML in /layouts/projects/hardshelled-baseof.html
-This file contains metadata used for HTML, SEO and Hugo content views.</description>
+      <guid>https://rodaraujo.com/es/portfolio/hardshelled/</guid>
+      <description>&lt;p&gt;Landing Page is full HTML in /layouts/projects/hardshelled-baseof.html&lt;/p&gt;&#xA;&lt;p&gt;This file contains metadata used for HTML, SEO and Hugo content views.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>AudioRetrato</title>
-      <link>https://rodaraujo.com/es/projects/audioretrato/</link>
+      <link>https://rodaraujo.com/es/portfolio/audioretrato/</link>
       <pubDate>Tue, 15 Sep 2020 12:00:43 -0600</pubDate>
-      
-      <guid>https://rodaraujo.com/es/projects/audioretrato/</guid>
-      <description>AudioRetrato es una recopilación de entrevistas a personas con experiencias poco comunes. Todas las personas en el mundo tienen algo que las hace diferentes a las demás, y con esto su punto de vista es único. En cada episodio se busca entender el punto de vista de los entrevistados con el fin de conocer las convicciones y motivaciones que los llevaron a vivir esas experiencias inhabituales. Puedes escucharlo aquí.
-Disponible en Distintas Plataformas Puedes escuchar los episodios de AudioRetrato en:</description>
+      <guid>https://rodaraujo.com/es/portfolio/audioretrato/</guid>
+      <description>&lt;p&gt;AudioRetrato es una recopilación de entrevistas a personas con experiencias poco comunes. Todas las personas en el mundo tienen algo que las hace diferentes a las demás, y con esto su punto de vista es único. En cada episodio se busca entender el punto de vista de los entrevistados con el fin de conocer las convicciones y motivaciones que los llevaron a vivir esas experiencias inhabituales. &lt;a href=&#34;https://rodaraujo.com/es/portfolio/audioretrato/#how-to-listen&#34;&gt;Puedes escucharlo aquí.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;mx-auto hide-on-apple my-5 col-12 col-lg-10&#34;&gt;&#xA;&lt;iframe src=&#34;https://open.spotify.com/embed/show/6TeD3WG4FN7LFhjFiWul73?utm_source=generator&amp;theme=1&#34; width=&#34;100%&#34; height=&#34;232&#34; frameBorder=&#34;0&#34; allowfullscreen=&#34;&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34; class=&#34;shadow-sm&#34;&gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mx-auto show-on-apple my-5&#34; style=&#34;width: 100%; max-width: 660px;&#34;&gt;&#xA;&lt;iframe src=&#34;https://embed.podcasts.apple.com/us/podcast/audioretrato/id1487587990?itsct=podcast_box_player&amp;amp;itscg=30200&amp;amp;ls=1&amp;amp;theme=light&#34; height=&#34;450px&#34; frameborder=&#34;0&#34; sandbox=&#34;allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation&#34; allow=&#34;autoplay *; encrypted-media *;&#34; style=&#34;width: 100%; max-width: 660px; overflow: hidden; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; background-color: transparent;&#34; class=&#34;shadow-sm&#34;&gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&lt;h2 id=&#34;disponible-en-distintas-plataformas&#34;&gt;Disponible en Distintas Plataformas&lt;/h2&gt;&#xA;&lt;p&gt;Puedes escuchar los episodios de AudioRetrato en:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>TankBot</title>
-      <link>https://rodaraujo.com/es/projects/tankbot/</link>
+      <link>https://rodaraujo.com/es/portfolio/tankbot/</link>
       <pubDate>Fri, 06 Jul 2018 14:40:10 -0600</pubDate>
-      
-      <guid>https://rodaraujo.com/es/projects/tankbot/</guid>
-      <description>TankBot es un prototipo de videojuego en 3D que busca imitar el estilo emocionante de juegos como Contra y Metal Slug. Los modelos, sonidos y animaciones utilizados son solamente versiones simplificadas para ejemplificar la experiencia del juego.
-A diferencia de otros juegos de disparos en tercera persona, TankBot premia a los jugadores por ser agresivos contra los enemigos, activando mejoras durante el combate. ¡Si logras destruir un robot enemigo, obtendrás más herramientas para destruir al resto!</description>
+      <guid>https://rodaraujo.com/es/portfolio/tankbot/</guid>
+      <description>&lt;p&gt;TankBot es un prototipo de videojuego en 3D que busca imitar el estilo emocionante de juegos como Contra y Metal Slug. Los modelos, sonidos y animaciones utilizados son solamente versiones simplificadas para ejemplificar la experiencia del juego.&lt;/p&gt;&#xA;&lt;p&gt;A diferencia de otros juegos de disparos en tercera persona, TankBot premia a los jugadores por ser agresivos contra los enemigos, activando mejoras durante el combate. ¡Si logras destruir un robot enemigo, obtendrás más herramientas para destruir al resto!&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

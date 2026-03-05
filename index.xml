@@ -4,55 +4,58 @@
     <title>Rodrigo Araujo Soria</title>
     <link>https://rodaraujo.com/</link>
     <description>Recent content on Rodrigo Araujo Soria</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Jul 2018 19:26:31 -0600</lastBuildDate><atom:link href="https://rodaraujo.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 May 2025 14:40:10 -0600</lastBuildDate>
+    <atom:link href="https://rodaraujo.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://rodaraujo.com/about/</link>
       <pubDate>Wed, 11 Jul 2018 00:32:03 -0600</pubDate>
-      
       <guid>https://rodaraujo.com/about/</guid>
       <description>&lt;p&gt;Hello there, I’m a Game Designer, Web Designer specialized in Project Managing and a former Digital Marketing Planner from Guatemala.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Resume</title>
       <link>https://rodaraujo.com/resume/</link>
       <pubDate>Wed, 11 Jul 2018 09:50:44 -0600</pubDate>
-      
       <guid>https://rodaraujo.com/resume/</guid>
-      <description>Technology and Expertise Day-to-Day Comfort: Unreal Engine Blender Unreal Motion Graphics HTML, CSS, JavaScript WordPress Drupal Hugo Static Site Generator Experience with: Laravel C++ PHP AutoCAD Adobe Creative Cloud Affinity Designer Work Experience 2014 – Today Project Manager BTO Software BTO Software (2014 – Today) Managed web development projects for the creation of new websites and web applications. Managed customer communication and requests. Web and UI/UX preliminary design for websites and web applications.</description>
+      <description>&lt;h2 id=&#34;technology-and-expertise&#34;&gt;Technology and Expertise&lt;/h2&gt;&#xA;&lt;div class=&#34;row&#34;&gt;&#xA;&lt;div class=&#34;col-12 col-md-6 col-lg-4 mx-auto&#34;&gt;&#xA;&lt;h3 id=&#34;day-to-day-comfort&#34;&gt;Day-to-Day Comfort:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Unreal Engine&lt;/li&gt;&#xA;&lt;li&gt;Blender&lt;/li&gt;&#xA;&lt;li&gt;Unreal Motion Graphics&lt;/li&gt;&#xA;&lt;li&gt;HTML, CSS, JavaScript&lt;/li&gt;&#xA;&lt;li&gt;WordPress&lt;/li&gt;&#xA;&lt;li&gt;Drupal&lt;/li&gt;&#xA;&lt;li&gt;Hugo Static Site Generator&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;col-12 col-md-6 col-lg-4 mx-auto&#34;&gt;&#xA;&lt;h3 id=&#34;experience-with&#34;&gt;Experience with:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Laravel&lt;/li&gt;&#xA;&lt;li&gt;C++&lt;/li&gt;&#xA;&lt;li&gt;PHP&lt;/li&gt;&#xA;&lt;li&gt;AutoCAD&lt;/li&gt;&#xA;&lt;li&gt;Adobe Creative Cloud&lt;/li&gt;&#xA;&lt;li&gt;Affinity Designer&lt;/li&gt;&#xA;&lt;li&gt;Atlassian Tools&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;work-experience&#34;&gt;Work Experience&lt;/h2&gt;&#xA;&lt;div class=&#34;row&#34;&gt;&#xA;&lt;div class=&#34;col-3 pt-3 d-none d-lg-block&#34;&gt;&#xA;&lt;span class=&#34;font-weight-light&#34;&gt;2024 – Today&lt;/span&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;col&#34;&gt;&#xA;&lt;h3 id=&#34;project-manager&#34;&gt;Project Manager&lt;/h3&gt;&#xA;&lt;div class=&#34;d-none d-lg-block&#34;&gt;&#xA;&lt;span class=&#34;font-weight-light&#34;&gt;BairesDev&lt;/span&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;d-block d-lg-none&#34;&gt;&#xA;&lt;span class=&#34;font-weight-light&#34;&gt;BairesDev (2024 – Today)&lt;/span&gt;&#xA;&lt;/div&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Own client-facing communication, ensuring expectations are clear and progress is visible at every stage.&lt;/li&gt;&#xA;&lt;li&gt;Coordinate resource planning and engineer allocation across active projects.&lt;/li&gt;&#xA;&lt;li&gt;Monitor risks proactively and course-correct before they impact delivery.&lt;/li&gt;&#xA;&lt;li&gt;Manage issue resolution quickly to avoid disrupting timelines.&lt;/li&gt;&#xA;&lt;li&gt;Bridge the gap between technical teams and business stakeholders.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;row&#34;&gt;&#xA;&lt;div class=&#34;col-3 pt-3 d-none d-lg-block&#34;&gt;&#xA;&lt;span class=&#34;font-weight-light&#34;&gt;2014 – Today&lt;/span&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;col&#34;&gt;&#xA;&lt;h3 id=&#34;project-manager--product-owner&#34;&gt;Project Manager / Product Owner&lt;/h3&gt;&#xA;&lt;p&gt;&lt;span class=&#34;font-weight-light&#34;&gt;Tribal WorldWide (2024 – 2024)&lt;/span&gt;&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Gamble to Win</title>
+      <link>https://rodaraujo.com/portfolio/gamble-to-win/</link>
+      <pubDate>Mon, 26 May 2025 14:40:10 -0600</pubDate>
+      <guid>https://rodaraujo.com/portfolio/gamble-to-win/</guid>
+      <description>&lt;p&gt;Pull up a chair. The tavern is loud, the drinks are flowing, and the cards are already on the table.&lt;/p&gt;&#xA;&lt;p&gt;In this custom card game built in 30 days for a game jam, you join a world where playing cards is the oldest way to earn a little extra coin. The rules are your own to learn, the bets are yours to make, and how far you stretch your luck is entirely up to you. Play it safe and walk away steady, or push your chips in and see what fate deals you.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Scarecrow 9000</title>
+      <link>https://rodaraujo.com/portfolio/scarecrow/</link>
+      <pubDate>Sun, 02 Oct 2022 14:40:10 -0600</pubDate>
+      <guid>https://rodaraujo.com/portfolio/scarecrow/</guid>
+      <description>&lt;p&gt;A wave-survival game inspired by Vampire Survivors build for a one-month Game Jam, but the monsters are crows, and the stakes are a moon vacation.&lt;/p&gt;&#xA;&lt;p&gt;You&amp;rsquo;re a farmer with a dream: $3,000 for a trip to a lunar resort. The only problem? Crows are decimating your crops before you can harvest a single thing. Your solution: the Scarecrow 9000®, a state-of-the-art robot built to protect what&amp;rsquo;s yours.&lt;/p&gt;&#xA;&lt;p&gt;Take control of the Scarecrow 9000® and fend off endless waves of crop-hungry crows. Survive until harvest time, collect your earnings based on what&amp;rsquo;s left standing, and reinvest in upgrades to keep the flock at bay. The crows get bolder. Your robot gets stronger. The moon gets closer.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hard Shelled</title>
-      <link>https://rodaraujo.com/projects/hardshelled/</link>
+      <link>https://rodaraujo.com/portfolio/hardshelled/</link>
       <pubDate>Mon, 04 Jul 2022 14:40:10 -0600</pubDate>
-      
-      <guid>https://rodaraujo.com/projects/hardshelled/</guid>
-      <description>Landing Page is full HTML in /layouts/projects/hardshelled-baseof.html
-This file contains metadata used for HTML, SEO and Hugo content views.</description>
+      <guid>https://rodaraujo.com/portfolio/hardshelled/</guid>
+      <description>&lt;p&gt;Landing Page is full HTML in /layouts/projects/hardshelled-baseof.html&lt;/p&gt;&#xA;&lt;p&gt;This file contains metadata used for HTML, SEO and Hugo content views.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>AudioRetrato</title>
-      <link>https://rodaraujo.com/projects/audioretrato/</link>
+      <link>https://rodaraujo.com/portfolio/audioretrato/</link>
       <pubDate>Tue, 15 Sep 2020 12:00:43 -0600</pubDate>
-      
-      <guid>https://rodaraujo.com/projects/audioretrato/</guid>
-      <description>AudioRetrato is a compilation of interviews in Spanish with people who have had uncommon life experiences. Every person in the world has something that makes them different from others, and this makes their point of view in live unique. Each episode seeks to understand the unique point of view of the interviewees with the objective of discovering their convictions and motivations that led them to extraordinary life experiences. You can listen to it here.</description>
+      <guid>https://rodaraujo.com/portfolio/audioretrato/</guid>
+      <description>&lt;p&gt;AudioRetrato is a compilation of interviews in Spanish with people who have had uncommon life experiences. Every person in the world has something that makes them different from others, and this makes their point of view in live unique. Each episode seeks to understand the unique point of view of the interviewees with the objective of discovering their convictions and motivations that led them to extraordinary life experiences. &lt;a href=&#34;https://rodaraujo.com/portfolio/audioretrato/#how-to-listen&#34;&gt;You can listen to it here.&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>TankBot</title>
-      <link>https://rodaraujo.com/projects/tankbot/</link>
+      <link>https://rodaraujo.com/portfolio/tankbot/</link>
       <pubDate>Sun, 06 Jan 2019 14:40:10 -0600</pubDate>
-      
-      <guid>https://rodaraujo.com/projects/tankbot/</guid>
-      <description>TankBot is a 3D video game prototype that looks to imitate the exciting feel of 2D Shoot ’em up games like Contra and Metal Slug. All assets (3D models, sounds, animations, textures, etc.) in the game are placeholders to exemplify the game experience.
-Unlike many other third person shooters with cover up mechanics, TankBot rewards forward aggressive play by boosting the player during combat. If you manage to destroy an enemy robot, you’ll get tools to destroy the rest!</description>
+      <guid>https://rodaraujo.com/portfolio/tankbot/</guid>
+      <description>&lt;p&gt;TankBot is a 3D video game prototype that looks to imitate the exciting feel of 2D Shoot ’em up games like Contra and Metal Slug. All assets (3D models, sounds, animations, textures, etc.) in the game are placeholders to exemplify the game experience.&lt;/p&gt;&#xA;&lt;p&gt;Unlike many other third person shooters with cover up mechanics, TankBot rewards forward aggressive play by boosting the player during combat. If you manage to destroy an enemy robot, you’ll get tools to destroy the rest!&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

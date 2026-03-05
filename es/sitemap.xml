@@ -15,17 +15,17 @@
                 href="https://rodaraujo.com/es/about/"
                 />
   </url><url>
-    <loc>https://rodaraujo.com/es/projects/</loc>
+    <loc>https://rodaraujo.com/es/portfolio/</loc>
     <lastmod>2018-07-10T14:11:21-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://rodaraujo.com/projects/"
+                href="https://rodaraujo.com/portfolio/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://rodaraujo.com/es/projects/"
+                href="https://rodaraujo.com/es/portfolio/"
                 />
   </url><url>
     <loc>https://rodaraujo.com/es/blog/</loc>
@@ -42,6 +42,19 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://rodaraujo.com/es/resume/"
+                />
+  </url><url>
+    <loc>https://rodaraujo.com/es/portfolio/gamble-to-win/</loc>
+    <lastmod>2025-05-26T14:40:10-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rodaraujo.com/portfolio/gamble-to-win/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://rodaraujo.com/es/portfolio/gamble-to-win/"
                 />
   </url><url>
     <loc>https://rodaraujo.com/es/blog/categories/blueprints/</loc>
@@ -78,30 +91,43 @@
     <loc>https://rodaraujo.com/es/blog/estructura-juego-unreal-engine/</loc>
     <lastmod>2023-04-11T20:39:10-06:00</lastmod>
   </url><url>
-    <loc>https://rodaraujo.com/es/projects/hardshelled/</loc>
+    <loc>https://rodaraujo.com/es/portfolio/scarecrow/</loc>
+    <lastmod>2022-10-02T14:40:10-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rodaraujo.com/portfolio/scarecrow/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://rodaraujo.com/es/portfolio/scarecrow/"
+                />
+  </url><url>
+    <loc>https://rodaraujo.com/es/portfolio/hardshelled/</loc>
     <lastmod>2022-07-04T14:40:10-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://rodaraujo.com/projects/hardshelled/"
+                href="https://rodaraujo.com/portfolio/hardshelled/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://rodaraujo.com/es/projects/hardshelled/"
+                href="https://rodaraujo.com/es/portfolio/hardshelled/"
                 />
   </url><url>
-    <loc>https://rodaraujo.com/es/projects/audioretrato/</loc>
+    <loc>https://rodaraujo.com/es/portfolio/audioretrato/</loc>
     <lastmod>2020-09-15T12:00:43-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://rodaraujo.com/projects/audioretrato/"
+                href="https://rodaraujo.com/portfolio/audioretrato/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://rodaraujo.com/es/projects/audioretrato/"
+                href="https://rodaraujo.com/es/portfolio/audioretrato/"
                 />
   </url><url>
     <loc>https://rodaraujo.com/es/</loc>
@@ -117,17 +143,17 @@
                 href="https://rodaraujo.com/es/"
                 />
   </url><url>
-    <loc>https://rodaraujo.com/es/projects/tankbot/</loc>
+    <loc>https://rodaraujo.com/es/portfolio/tankbot/</loc>
     <lastmod>2018-07-06T14:40:10-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://rodaraujo.com/projects/tankbot/"
+                href="https://rodaraujo.com/portfolio/tankbot/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://rodaraujo.com/es/projects/tankbot/"
+                href="https://rodaraujo.com/es/portfolio/tankbot/"
                 />
   </url><url>
     <loc>https://rodaraujo.com/es/tags/</loc>

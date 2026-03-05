@@ -4,37 +4,30 @@
     <title>Unreal Engine on Rodrigo Araujo Soria</title>
     <link>https://rodaraujo.com/es/blog/categories/unreal-engine/</link>
     <description>Recent content in Unreal Engine on Rodrigo Araujo Soria</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 27 Apr 2023 13:01:42 -0600</lastBuildDate><atom:link href="https://rodaraujo.com/es/blog/categories/unreal-engine/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Apr 2023 13:01:42 -0600</lastBuildDate>
+    <atom:link href="https://rodaraujo.com/es/blog/categories/unreal-engine/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blueprints y C&#43;&#43; en Unreal Engine</title>
       <link>https://rodaraujo.com/es/blog/blueprints-cpp-unreal-engine/</link>
       <pubDate>Thu, 27 Apr 2023 13:01:42 -0600</pubDate>
-      
       <guid>https://rodaraujo.com/es/blog/blueprints-cpp-unreal-engine/</guid>
-      <description>Cuando se trata de desarrollar juegos en Unreal Engine, es común pensar que se tiene que elegir entre programar en C++ o utilizar Blueprints. Existe la noción que C++ es la opción par programadores y Blueprints es para quienes no saben programar. Pero la realidad es que ambos son complementarios y pueden ser utilizados juntos para mejorar el proceso de desarrollo de un juego.
-Índice de contenidos ¿Qué son Blueprints y qué es C++?</description>
+      <description>&lt;p&gt;Cuando se trata de desarrollar juegos en Unreal Engine, es común pensar que se tiene que elegir entre programar en &lt;a target=&#34;_blank&#34; href=&#34;https://www.ingenierobinario.com/aprenderaprogramar1/&#34; title=&#34;Aprender C++, Tutorial Escrito y en Video | Ingeniero Binario&#34;&gt;C++&lt;/a&gt; o utilizar &lt;a href=&#34;https://rodaraujo.com/es/blog/conceptos-unreal-engine/#blueprint&#34; title=&#34;Blueprints&#34;&gt;Blueprints&lt;/a&gt;. Existe la noción que C++ es la opción par programadores y Blueprints es para quienes no saben programar. Pero la realidad es que ambos son complementarios y pueden ser utilizados juntos para mejorar el proceso de desarrollo de un juego.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Conceptos Básicos de Unreal Engine</title>
       <link>https://rodaraujo.com/es/blog/conceptos-unreal-engine/</link>
       <pubDate>Thu, 20 Apr 2023 09:47:18 -0600</pubDate>
-      
       <guid>https://rodaraujo.com/es/blog/conceptos-unreal-engine/</guid>
-      <description>Desde que se convirtió en un proyecto de código abierto, Unreal Engine a aumentado su popularidad en el desarrollo de juegos. En este artículo, exploraremos algunos de los conceptos y elementos básicos de este motor de juegos. Incluiré vínculos a la página web oficial de documentación, con el único inconveniente que sólo está en inglés.
-Índice de contenidos Blueprint Ticking Actores Pawn Character Componentes Scene Component Primitive Component Meshes Static Mesh Skeletal Mesh Movement Component Character Movement Component Projectile Movement Component Floating Pawn Movement Component Materiales Blueprint Es el sistema visual de programación de Unreal Engine.</description>
+      <description>&lt;p&gt;Desde que se convirtió en un proyecto de código abierto, Unreal Engine a aumentado su popularidad en el desarrollo de juegos. En este artículo, exploraremos algunos de los conceptos y elementos básicos de este motor de juegos. Incluiré vínculos a la página web oficial de documentación, con el único inconveniente que sólo está en inglés.&lt;/p&gt;&#xA;&lt;div class=&#34;rod-content-inner small bg-white rod-rounded px-4 py-2 my-4 shadow-sm&#34;&gt;&#xA;&#x9;&lt;h2 class=&#34;h5 pt-3&#34;&gt;Índice de contenidos&lt;/h2&gt;&#xA;&#x9;&lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#blueprint&#34;&gt;Blueprint&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#ticking&#34;&gt;Ticking&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#actores&#34;&gt;Actores&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#pawn&#34;&gt;Pawn&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#character&#34;&gt;Character&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#componentes&#34;&gt;Componentes&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#scene-component&#34;&gt;Scene Component&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#primitive-component&#34;&gt;Primitive Component&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#meshes&#34;&gt;Meshes&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#static-mesh&#34;&gt;Static Mesh&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#skeletal-mesh&#34;&gt;Skeletal Mesh&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#movement-component&#34;&gt;Movement Component&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#character-movement-component&#34;&gt;Character Movement Component&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#projectile-movement-component&#34;&gt;Projectile Movement Component&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#floating-pawn-movement-component&#34;&gt;Floating Pawn Movement Component&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#materiales&#34;&gt;Materiales&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;/div&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;blueprint&#34;&gt;Blueprint&lt;/h2&gt;&#xA;&lt;p&gt;Es el sistema visual de programación de Unreal Engine. Permite a los desarrolladores crear lógica de juego y comportamientos a través de la creación de diagramas de flujo. Al igual que el lenguaje de programación del motor, C++, los blueprints pueden ser extendidos por herencia. Sólo se pueden editar y compilar en la aplicación de Unreal Engine.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Estructura de un Juego de Unreal Engine</title>
       <link>https://rodaraujo.com/es/blog/estructura-juego-unreal-engine/</link>
       <pubDate>Tue, 11 Apr 2023 20:39:10 -0600</pubDate>
-      
       <guid>https://rodaraujo.com/es/blog/estructura-juego-unreal-engine/</guid>
-      <description>En el mundo de los videojuegos, Unreal Engine se ha convertido en una herramienta fundamental para muchos desarrolladores, pero uno de los desafíos que se enfrenta al trabajar con esta plataforma es comprender su estructura. Una de las cosas que lo hace confuso es la existencia de varios objetos y abstracciones similares, que puede hacer difícil distinguirlos y entender cuál es el objeto más adecuado para una tarea específica. Por ello es beneficioso tener un buen conocimiento de cómo el motor arranca y se crea la estructura de un juego.</description>
+      <description>&lt;p&gt;En el mundo de los videojuegos, Unreal Engine se ha convertido en una herramienta fundamental para muchos desarrolladores, pero uno de los desafíos que se enfrenta al trabajar con esta plataforma es comprender su estructura. Una de las cosas que lo hace confuso es la existencia de varios objetos y abstracciones similares, que puede hacer difícil distinguirlos y entender cuál es el objeto más adecuado para una tarea específica. Por ello es beneficioso tener un buen conocimiento de cómo el motor arranca y se crea la estructura de un juego.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
